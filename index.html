@@ -474,6 +474,112 @@
     font-weight: 600;
   }
 
+  /* ===== COMMAND CENTER ===== */
+  .cc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 16px;
+  }
+  .cc-card {
+    background: var(--bg-1);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 20px 22px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cc-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0;
+    height: 2px; background: var(--gold);
+  }
+  .cc-card-wide { grid-column: 1 / -1; }
+  .cc-card-title {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--gold-bright);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--line);
+  }
+  .cc-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--bg-2);
+    font-size: 13px;
+    gap: 12px;
+  }
+  .cc-row:last-child { border-bottom: none; }
+  .cc-key {
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    flex-shrink: 0;
+  }
+  .cc-val {
+    color: var(--text);
+    text-align: right;
+    word-break: break-word;
+  }
+  .cc-val a { color: var(--gold-bright); text-decoration: none; border-bottom: 1px dotted; }
+  .cc-val a:hover { color: #f5dca0; }
+  .mono {
+    font-family: 'SF Mono', Consolas, Monaco, monospace;
+    font-size: 11px;
+    background: var(--bg-3);
+    padding: 1px 6px;
+    border-radius: 3px;
+    color: var(--gold-bright);
+  }
+  .cc-list {
+    margin: 0; padding-left: 20px;
+    color: var(--text-dim);
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .cc-list li { padding: 2px 0; }
+  .cc-p { margin: 0 0 12px; color: var(--text-dim); font-size: 13px; line-height: 1.6; }
+  .cc-cmd {
+    background: var(--bg-2);
+    border-left: 3px solid var(--gold-dark);
+    padding: 10px 14px;
+    border-radius: 4px;
+    font-family: 'SF Mono', Consolas, monospace;
+    font-size: 12px;
+    color: var(--text);
+    margin-bottom: 8px;
+    cursor: text;
+    user-select: all;
+  }
+  .cc-cmd:hover { border-left-color: var(--gold); background: var(--bg-3); }
+  .cc-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .cc-btn {
+    background: var(--bg-2);
+    border: 1px solid var(--line-2);
+    color: var(--text);
+    padding: 9px 16px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: inherit;
+    transition: all 0.2s;
+    display: inline-block;
+  }
+  .cc-btn:hover {
+    background: var(--gold-dark);
+    border-color: var(--gold);
+    color: #1a1305;
+  }
+
   /* ===== LOADING ===== */
   .loading {
     text-align: center; padding: 80px 0;
@@ -511,7 +617,7 @@
       <div class="hero-brand">
         <div class="hero-eyebrow">Daily Intelligence Agent</div>
         <h1 class="hero-name">Tommy <span class="surname">Shelby</span></h1>
-        <div class="hero-tag">Searches Google, forums, and the open web every day to discover new affiliate networks and traffic sources we don't yet have. By order of the Peaky Blinders.</div>
+        <div class="hero-tag">Searches Google, forums, and the open web every Monday to discover new affiliate networks and traffic sources we don't yet have. By order of the Peaky Blinders.</div>
       </div>
       <div class="hero-status">
         <div class="status-card">
@@ -523,7 +629,7 @@
         </div>
         <div class="status-card">
           <div class="status-card-label">Next Scheduled Run</div>
-          <div class="status-card-value" id="next-run">Daily · 06:00 UTC</div>
+          <div class="status-card-value" id="next-run">Weekly · Monday 10:00 IL</div>
         </div>
       </div>
     </div>
@@ -533,6 +639,7 @@
       <button class="tab-btn" data-tab="networks">Affiliate Networks</button>
       <button class="tab-btn" data-tab="traffic">Traffic Sources</button>
       <button class="tab-btn" data-tab="history">History</button>
+      <button class="tab-btn" data-tab="command">Command Center</button>
     </nav>
   </header>
 
@@ -614,11 +721,112 @@
         <div id="history-list"></div>
       </div>
     </section>
+
+    <!-- COMMAND CENTER TAB -->
+    <section class="tab-content" id="tab-command">
+      <div class="section">
+        <div class="section-header">
+          <h2 class="section-title">Command <span class="gold">Center</span></h2>
+          <div class="section-meta">Tommy's mission control — schedule, status, and how to give him new orders</div>
+        </div>
+
+        <div class="kpi-row">
+          <div class="kpi green">
+            <div class="kpi-label">Status</div>
+            <div class="kpi-value" id="cc-status" style="font-size: 22px;">
+              <span class="status-dot"></span>Active
+            </div>
+            <div class="kpi-sub">Routine running on schedule</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">Cadence</div>
+            <div class="kpi-value" style="font-size: 22px;">Weekly</div>
+            <div class="kpi-sub">Mondays · 10:00 Israel</div>
+          </div>
+          <div class="kpi crimson">
+            <div class="kpi-label">Next Mission</div>
+            <div class="kpi-value" id="cc-next" style="font-size: 22px;">—</div>
+            <div class="kpi-sub" id="cc-next-sub">Auto-runs in the cloud</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">Last Mission</div>
+            <div class="kpi-value" id="cc-last" style="font-size: 22px;">—</div>
+            <div class="kpi-sub" id="cc-last-sub">Most recent reconnaissance</div>
+          </div>
+        </div>
+
+        <div class="cc-grid">
+          <div class="cc-card">
+            <div class="cc-card-title">🎩 Identity</div>
+            <div class="cc-row"><span class="cc-key">Name</span><span class="cc-val">Tommy Shelby</span></div>
+            <div class="cc-row"><span class="cc-key">Role</span><span class="cc-val">Daily Intelligence Agent</span></div>
+            <div class="cc-row"><span class="cc-key">Routine ID</span><span class="cc-val mono">tommy-shelby-daily-recon</span></div>
+            <div class="cc-row"><span class="cc-key">Cron</span><span class="cc-val mono">0 10 * * 1</span></div>
+            <div class="cc-row"><span class="cc-key">Runs in</span><span class="cc-val">Anthropic cloud (no PC needed)</span></div>
+            <div class="cc-row"><span class="cc-key">Cost</span><span class="cc-val">$0 — uses Claude subscription</span></div>
+          </div>
+
+          <div class="cc-card">
+            <div class="cc-card-title">📡 Where Tommy Reports</div>
+            <div class="cc-row">
+              <span class="cc-key">Slack</span>
+              <span class="cc-val"><a href="https://momarketingpt.slack.com/archives/C0B0BGZKZ7C" target="_blank" rel="noopener">#tommy-shelby-af-ts-discoveries</a></span>
+            </div>
+            <div class="cc-row">
+              <span class="cc-key">GitHub</span>
+              <span class="cc-val"><a href="https://github.com/vladspivak-GTR/tommy-shelby-agent" target="_blank" rel="noopener">vladspivak-GTR/tommy-shelby-agent</a></span>
+            </div>
+            <div class="cc-row">
+              <span class="cc-key">Dashboard</span>
+              <span class="cc-val"><a href="https://tommy-shelby-agent.vercel.app" target="_blank" rel="noopener">tommy-shelby-agent.vercel.app</a></span>
+            </div>
+            <div class="cc-row">
+              <span class="cc-key">Raw data</span>
+              <span class="cc-val"><a href="./data/discoveries.json" target="_blank" rel="noopener">discoveries.json</a></span>
+            </div>
+          </div>
+
+          <div class="cc-card">
+            <div class="cc-card-title">🎯 Current Mission Brief</div>
+            <ol class="cc-list">
+              <li>Pull latest <span class="mono">assets.json</span> + <span class="mono">discoveries.json</span> from GitHub</li>
+              <li>Run 8-15 web searches (Google, AffLIFT, AffiliateFix, blogs, conferences)</li>
+              <li>Filter every candidate against EXCLUDE list — no duplicates allowed</li>
+              <li>Aim for 5-10 new affiliate networks + 5-10 new traffic sources</li>
+              <li>Append findings to <span class="mono">discoveries.json</span> + push to GitHub</li>
+              <li>Send styled report to Slack channel in Tommy's voice</li>
+            </ol>
+          </div>
+
+          <div class="cc-card cc-card-wide">
+            <div class="cc-card-title">📝 How to Give Tommy New Orders</div>
+            <p class="cc-p">Open any Claude Code session and tell the assistant what you want to change. The assistant will update the routine for you. Example commands:</p>
+            <div class="cc-cmd">"Update Tommy: focus this week on LATAM affiliate networks"</div>
+            <div class="cc-cmd">"Update Tommy: run twice a week — Monday and Thursday at 10:00"</div>
+            <div class="cc-cmd">"Update Tommy: also send the report to a second Slack channel"</div>
+            <div class="cc-cmd">"Update Tommy: pause for two weeks, I'm on holiday"</div>
+            <div class="cc-cmd">"Update Tommy: add Telegram channels and conference speaker lists to the search sources"</div>
+            <p class="cc-p" style="margin-top: 16px;">Tommy's full prompt and configuration are stored at <span class="mono">C:\Users\Vlad\.claude\scheduled-tasks\tommy-shelby-daily-recon\SKILL.md</span> on your machine. Any Claude Code chat can read and update that file.</p>
+          </div>
+
+          <div class="cc-card cc-card-wide">
+            <div class="cc-card-title">⚙️ Manual Controls</div>
+            <div class="cc-controls">
+              <a class="cc-btn" href="https://github.com/vladspivak-GTR/tommy-shelby-agent/commits/main" target="_blank" rel="noopener">📜 View commit history</a>
+              <a class="cc-btn" href="https://github.com/vladspivak-GTR/tommy-shelby-agent/blob/main/data/discoveries.json" target="_blank" rel="noopener">🔍 Inspect raw findings</a>
+              <a class="cc-btn" href="https://momarketingpt.slack.com/archives/C0B0BGZKZ7C" target="_blank" rel="noopener">💬 Open Slack channel</a>
+              <a class="cc-btn" href="https://vercel.com/vladspivak-9617s-projects/tommy-shelby-agent" target="_blank" rel="noopener">▲ Vercel project</a>
+            </div>
+            <p class="cc-p" style="margin-top: 12px; color: var(--text-muted); font-size: 12px;">To trigger Tommy on demand — say "Run Tommy now" in any Claude Code chat. He'll do a full reconnaissance immediately and post to Slack.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
     <div class="footer-quote">"By order of the Peaky Blinders."</div>
-    <div>Tommy Shelby Agent · Powered by Claude · Updated daily at 06:00 UTC</div>
+    <div>Tommy Shelby Agent · Powered by Claude · Updated weekly · Mondays 10:00 Israel</div>
   </footer>
 </div>
 
@@ -667,6 +875,44 @@ function renderStatus() {
     document.getElementById('kpi-date').textContent = d.toISOString().split('T')[0];
   }
   document.getElementById('kpi-total').textContent = discoveriesData.total_discoveries || 0;
+  renderCommandCenter();
+}
+
+function nextMonday10IL() {
+  // Returns the next Monday at 10:00 Israel time (UTC+3 / +2 with DST).
+  // We compute against current UTC + an offset assumption of UTC+3 (Israel summer).
+  const now = new Date();
+  const day = now.getUTCDay();
+  // Monday = 1. Days until next Monday (always at least 1 if today is Monday after 07:00 UTC).
+  let daysAhead = (8 - day) % 7;
+  const utcHour = now.getUTCHours();
+  // Tommy fires at 07:00 UTC (10:00 Israel summer). If today is Monday and we are before 07:00 UTC, next run is today.
+  if (day === 1 && utcHour < 7) daysAhead = 0;
+  if (daysAhead === 0 && day !== 1) daysAhead = 7;
+  if (daysAhead === 0 && day === 1 && utcHour >= 7) daysAhead = 7;
+  const target = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + daysAhead, 7, 0, 0));
+  return target;
+}
+
+function renderCommandCenter() {
+  // Last mission
+  const lastEl = document.getElementById('cc-last');
+  const lastSubEl = document.getElementById('cc-last-sub');
+  if (lastEl && discoveriesData.last_run) {
+    const d = new Date(discoveriesData.last_run);
+    lastEl.textContent = d.toISOString().split('T')[0];
+    lastSubEl.textContent = formatRelativeTime(d);
+  }
+
+  // Next mission
+  const nextEl = document.getElementById('cc-next');
+  const nextSubEl = document.getElementById('cc-next-sub');
+  if (nextEl) {
+    const next = nextMonday10IL();
+    nextEl.textContent = next.toISOString().split('T')[0];
+    const days = Math.ceil((next.getTime() - Date.now()) / 86400000);
+    nextSubEl.textContent = days <= 0 ? 'Today · 10:00 Israel' : `In ${days} day${days === 1 ? '' : 's'} · 10:00 Israel`;
+  }
 }
 
 function formatRelativeTime(d) {
