@@ -1,7 +1,136 @@
 {
-  "generated_at": "2026-04-27T00:00:00.000Z",
-  "last_run": null,
-  "next_run": null,
-  "total_discoveries": 0,
-  "history": []
+  "generated_at": "2026-04-28T07:30:00.000Z",
+  "last_run": "2026-04-28T07:30:00.000Z",
+  "next_run": "2026-04-29T06:00:00.000Z",
+  "total_discoveries": 11,
+  "history": [
+    {
+      "date": "2026-04-28",
+      "generated_at": "2026-04-28T07:30:00.000Z",
+      "summary": "First reconnaissance — searched cashback / rewards platforms, CPA networks across multiple GEOs, and ad networks recommended on AffLIFT and AffiliateFix. Strongest finds: MyLead (Poland, 850K affiliates), Indoleads (KL, 3000+ programs), and ROIads (post-2023 push/popunder network with low CPCs).",
+      "searches_run": 6,
+      "model": "claude-code-scheduled-agent",
+      "affiliate_networks": [
+        {
+          "name": "MyLead",
+          "website": "https://mylead.global",
+          "description": "Polish-based CPA network active since 2014, ~850K affiliates across 154 countries with ~5,000 offers. Multiple payment models (CPL, CPS, CPA, PPI, COD) and partners with Amazon, Microsoft, AliExpress.",
+          "type": "CPA / CPL / CPS",
+          "geo": "Global (strong EU)",
+          "commission_model": "CPA / CPL / CPS / PPI / COD",
+          "source": "Affpaying review + AffMaven 2026 review"
+        },
+        {
+          "name": "Indoleads",
+          "website": "https://indoleads.com",
+          "description": "Kuala-Lumpur HQ premium affiliate network with 3,000+ programs covering 180+ countries. Local offices in Brazil, India, Hong Kong, Russia, Vietnam. eCPM ~$9.7 for any traffic.",
+          "type": "CPA / CPS / Hybrid",
+          "geo": "Global (strong APAC + LATAM)",
+          "commission_model": "CPA / CPS / Hybrid",
+          "source": "Affbank + Indoleads.com"
+        },
+        {
+          "name": "TerraLeads",
+          "website": "https://terraleads.com",
+          "description": "Self-described 'CPA Hub' — runs in-house products (mostly nutra/health) so payouts and inventory are exclusive. Daily withdrawals, multilingual 24/7 personal managers.",
+          "type": "CPA in-house (nutra-heavy)",
+          "geo": "Global, focus EU + LATAM + Asia",
+          "commission_model": "CPA",
+          "source": "Affpaying review"
+        },
+        {
+          "name": "Wildfire",
+          "website": "https://www.wildfire-corp.com",
+          "description": "B2B cashback / rewards / commerce-intelligence platform — gives publishers an API to add cashback functionality. Powers rewards programs for fintechs and loyalty apps.",
+          "type": "Cashback API / Rewards platform",
+          "geo": "Global (strong US)",
+          "commission_model": "RevShare / Hybrid",
+          "source": "Loyalty & Reward Co article"
+        },
+        {
+          "name": "Loyalize",
+          "website": "https://loyalize.com",
+          "description": "Cashback-as-a-service API + AI-ready rewards platform — like Wildfire, lets you bolt cashback onto an existing site/app. Newer, leaner alternative.",
+          "type": "Cashback API / Loyalty",
+          "geo": "Global",
+          "commission_model": "RevShare",
+          "source": "Loyalize.com + Loyalty & Reward Co"
+        }
+      ],
+      "traffic_sources": [
+        {
+          "name": "ROIads",
+          "website": "https://roiads.co",
+          "description": "Newer ad network (launched early 2023), 600M+ daily impressions, focused on just two formats — push and popunder — with very low CPCs ($0.003 floor). Strong on betting & iGaming.",
+          "type": "Push + Popunder",
+          "geo": "Global",
+          "source": "ROIads + Affroom review"
+        },
+        {
+          "name": "EvaDav",
+          "website": "https://evadav.com",
+          "description": "Self-serve performance ad network with 10B+ monthly push notifications across 250 GEOs. Handles betting, finance, crypto, software verticals. Clean UI, well-rated support.",
+          "type": "Push / In-page push / Pop / Native",
+          "geo": "Global (250 GEOs)",
+          "source": "Mobidea Academy review + AffLIFT"
+        },
+        {
+          "name": "OnClickA",
+          "website": "https://onclicka.com",
+          "description": "Self-serve global ad network founded 2020. Delivers 2B+ daily in-page impressions across 240 GEOs from direct sources. Strong in iGaming and Dating verticals.",
+          "type": "In-page push / Pop / Push",
+          "geo": "Global (240 GEOs)",
+          "source": "Affroom + ROIads ad-network roundup"
+        },
+        {
+          "name": "TwinRed",
+          "website": "https://www.twinred.com",
+          "description": "Operating since 2013, originally adult-vertical-only but now widely used for betting / sweepstakes / gaming. Tier-1 + Tier-2 traffic, AI optimization, 4 formats.",
+          "type": "Popunder / Native / Banner / Interstitial",
+          "geo": "Tier 1 + Tier 2",
+          "source": "ROIads betting-network roundup"
+        },
+        {
+          "name": "Mondiad",
+          "website": "https://mondiad.com",
+          "description": "Performance ad network mentioned alongside ROIads/EvaDav in 2026 push and popunder roundups. Focus on push, native, and pop formats for affiliate verticals.",
+          "type": "Push / Native / Pop",
+          "geo": "Global",
+          "source": "ROIads + RichAds 2026 roundups"
+        },
+        {
+          "name": "Taboola",
+          "website": "https://www.taboola.com",
+          "description": "One of the two giants of native advertising (with Outbrain) — premium publisher inventory, tier-1 traffic. Higher minimums but converts well for cashback / shopping content.",
+          "type": "Native",
+          "geo": "Global, Tier 1 dominant",
+          "source": "AffiliateFix + multiple forum threads"
+        }
+      ],
+      "rejected_as_duplicates": {
+        "networks": [
+          "Rakuten",
+          "Partnerize",
+          "Webgains",
+          "Impact",
+          "PartnerStack",
+          "Refersion",
+          "FlexOffers",
+          "Admitad",
+          "CJ Affiliate",
+          "Awin"
+        ],
+        "traffic_sources": [
+          "PropellerAds",
+          "RichAds",
+          "Adcash",
+          "Adsterra",
+          "PopCash",
+          "Clickadu",
+          "HilltopAds",
+          "AdMaven"
+        ]
+      }
+    }
+  ]
 }
