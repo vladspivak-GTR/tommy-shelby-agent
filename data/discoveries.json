@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-28T07:30:00.000Z",
-  "last_run": "2026-04-28T07:30:00.000Z",
+  "generated_at": "2026-04-28T12:00:00.000Z",
+  "last_run": "2026-04-28T12:00:00.000Z",
   "next_run": "2026-04-29T06:00:00.000Z",
-  "total_discoveries": 11,
+  "total_discoveries": 19,
   "history": [
     {
       "date": "2026-04-28",
-      "generated_at": "2026-04-28T07:30:00.000Z",
-      "summary": "First reconnaissance — searched cashback / rewards platforms, CPA networks across multiple GEOs, and ad networks recommended on AffLIFT and AffiliateFix. Strongest finds: MyLead (Poland, 850K affiliates), Indoleads (KL, 3000+ programs), and ROIads (post-2023 push/popunder network with low CPCs).",
-      "searches_run": 6,
+      "generated_at": "2026-04-28T12:00:00.000Z",
+      "summary": "Second run today — searched CPA networks, cashback platforms (EU/APAC), Nordic/LATAM GEOs, push/pop/native traffic sources via RichAds/ROIads roundups, AffLIFT, and Affpaying. Strongest new AN find: Zeydoo (sweepstakes/utilities, 200+ GEOs, 2.5M daily conversions) and ShopBack (APAC cashback giant, $350M raised). Strongest new TS find: Zeropark (pop/domain redirect/commerce media). Run 1 (07:30 UTC) added 5 AN + 6 TS; Run 2 (this run) adds 6 AN + 2 TS.",
+      "searches_run": 16,
       "model": "claude-code-scheduled-agent",
       "affiliate_networks": [
         {
@@ -55,6 +55,60 @@
           "geo": "Global",
           "commission_model": "RevShare",
           "source": "Loyalize.com + Loyalty & Reward Co"
+        },
+        {
+          "name": "MaxBounty",
+          "website": "https://www.maxbounty.com",
+          "description": "One of the oldest and most trusted CPA networks, founded 2004. 3,000+ active campaigns across finance, health, dating, software verticals. Known for reliable weekly payments and strong AM support.",
+          "type": "CPA",
+          "geo": "Global (Tier 1 dominant)",
+          "commission_model": "CPA / CPL",
+          "source": "AffTank 2026 roundup + G2 reviews + Affpaying"
+        },
+        {
+          "name": "Zeydoo",
+          "website": "https://zeydoo.com",
+          "description": "Tech-first CPA network with 10 in-house products and ~1,000 offers in sweepstakes, mobile apps/utilities, leadgen, and surveys. 200+ GEOs, 5,000+ partners, 2.5M daily conversions.",
+          "type": "CPA / Sweepstakes / Leadgen",
+          "geo": "Global (200+ GEOs)",
+          "commission_model": "CPA / CPL",
+          "source": "Technoven Zeydoo vs MaxBounty comparison + Affpaying"
+        },
+        {
+          "name": "AdCombo",
+          "website": "https://adcombo.com",
+          "description": "International CPA network founded 2013 with 2,400+ exclusive in-house offers. Covers iGaming, crypto, dating, nutra, sweepstakes. Localized in 40+ languages, pays twice weekly from $50.",
+          "type": "CPA / In-house offers",
+          "geo": "Global, strong LATAM + EU + Asia",
+          "commission_model": "CPA",
+          "source": "AffCatalog + AffMaven 2026 review + Affpaying"
+        },
+        {
+          "name": "LetyShops",
+          "website": "https://letyshops.com",
+          "description": "Popular cashback service with millions of users in Europe, LATAM, and Asia, partnering with thousands of online stores. Backed by Admitad owner ($3M investment). Affiliate program pays 50% of LetyShops' income from referred users (lifetime).",
+          "type": "Cashback / Rewards",
+          "geo": "EU, LATAM, Asia",
+          "commission_model": "RevShare (50% lifetime) + €0.20 per registration",
+          "source": "Admitad blog + Tradedoubler publisher spotlight"
+        },
+        {
+          "name": "Mobidea",
+          "website": "https://www.mobidea.com",
+          "description": "Mobile-first CPA network founded 2011 with AI-powered Smartlinks that auto-route traffic to highest-converting offer per device/GEO/carrier. Covers leadgen, mVAS, dating, CC nutra, apps. 1,500+ offers, weekly payouts from €50.",
+          "type": "CPA / Mobile",
+          "geo": "Global",
+          "commission_model": "CPA / CPL / RevShare",
+          "source": "Mobidea.com + Affpaying + MonetizePros review"
+        },
+        {
+          "name": "ShopBack",
+          "website": "https://www.shopback.com",
+          "description": "APAC's dominant cashback and rewards platform — Singapore HQ, 10,000+ merchant partners, $350M+ VC funding. Users earn 1-30% back on purchases via web or app extension.",
+          "type": "Cashback / Rewards",
+          "geo": "APAC (Singapore, Australia, Taiwan, Malaysia, Philippines, etc.)",
+          "commission_model": "CPS / RevShare",
+          "source": "SME Business Review + SideHustleHackers 2026 review"
         }
       ],
       "traffic_sources": [
@@ -105,6 +159,22 @@
           "type": "Native",
           "geo": "Global, Tier 1 dominant",
           "source": "AffiliateFix + multiple forum threads"
+        },
+        {
+          "name": "Zeropark",
+          "website": "https://zeropark.com",
+          "description": "Reliable performance ad network built on pop, domain redirect, and commerce media ads. Strong traffic quality, consistent volume, responsive account managers. Good for testing and scaling.",
+          "type": "Pop / Domain Redirect / Commerce Media",
+          "geo": "Global",
+          "source": "RichAds Zeropark alternatives article + G2 reviews"
+        },
+        {
+          "name": "TrafficStars",
+          "website": "https://trafficstars.com",
+          "description": "RTB-powered ad network established 2014, went through a 2019 rebrand. Offers push, clickunder, and banner formats with Optimizer and Automated Rules tools. One of the cheapest CPM options for push and clickunder traffic.",
+          "type": "Push / Clickunder / Banner",
+          "geo": "Global, Tier 1 + Tier 2",
+          "source": "RichAds cheapest ad platforms 2026 roundup"
         }
       ],
       "rejected_as_duplicates": {
@@ -118,7 +188,11 @@
           "FlexOffers",
           "Admitad",
           "CJ Affiliate",
-          "Awin"
+          "Awin",
+          "ClickDealer",
+          "MyLead (Run 2 — already in Run 1)",
+          "TerraLeads (Run 2 — already in Run 1)",
+          "Loyalize (Run 2 — already in Run 1)"
         ],
         "traffic_sources": [
           "PropellerAds",
@@ -128,7 +202,9 @@
           "PopCash",
           "Clickadu",
           "HilltopAds",
-          "AdMaven"
+          "AdMaven",
+          "ROIads (Run 2 — already in Run 1)",
+          "EvaDav (Run 2 — already in Run 1)"
         ]
       }
     }
