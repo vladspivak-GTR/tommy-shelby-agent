@@ -58,6 +58,7 @@
       { "name": "digitalocean", "status": "In progress" }
     ],
     "Spread": [
+      { "name": "LinkConnector", "status": "In progress" },
       { "name": "linkbux", "status": "Done" },
       { "name": "noctemque", "status": "Done" },
       { "name": "Brandreward", "status": "Done" },
@@ -96,6 +97,8 @@
       { "name": "collabglow", "status": "Done" }
     ],
     "Spirion": [
+      { "name": "AvantLink", "status": "In progress" },
+      { "name": "Soicos", "status": "In progress" },
       { "name": "AWIN", "status": "In progress" },
       { "name": "Linkbux", "status": "Done" },
       { "name": "Rewardoo", "status": "Done" },
@@ -130,6 +133,7 @@
       { "name": "TradeDoubler", "status": "Done" }
     ],
     "Galatea": [
+      { "name": "GiddyUp", "status": "In progress" },
       { "name": "TradeDoubler", "status": "In progress" },
       { "name": "Linkbux", "status": "Done" },
       { "name": "Linkhaitao", "status": "Done" },
@@ -170,6 +174,10 @@
     { "name": "Adoperator", "status": "Active" },
     { "name": "Adexium", "status": "Active" },
     { "name": "adCash", "status": "Active" },
-    { "name": "ad-maven", "status": "Active" }
+    { "name": "ad-maven", "status": "Active" },
+    { "name": "PopAds", "status": "In progress" },
+    { "name": "PopMyAds", "status": "In progress" },
+    { "name": "TrafficShop", "status": "In progress" },
+    { "name": "EZmob", "status": "Active" }
   ]
 }
