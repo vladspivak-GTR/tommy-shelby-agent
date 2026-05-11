@@ -1,115 +1,111 @@
 {
-  "generated_at": "2026-05-04T08:00:00.000Z",
-  "last_run": "2026-05-04T08:00:00.000Z",
-  "next_run": "2026-05-11T07:00:00.000Z",
-  "total_discoveries": 24,
+  "generated_at": "2026-05-11T08:30:00.000Z",
+  "last_run": "2026-05-11T08:30:00.000Z",
+  "next_run": "2026-05-18T07:00:00.000Z",
+  "total_discoveries": 28,
   "history": [
     {
-      "date": "2026-05-04",
-      "generated_at": "2026-05-04T08:00:00.000Z",
+      "date": "2026-05-11",
+      "generated_at": "2026-05-11T08:30:00.000Z",
       "cadence": "weekly-monday",
-      "summary": "Manual run — Vlad sharpened the focus: ecommerce CPS/CPA only, Pop/Popunder only, and check ISP/iCloud targeting on every TS. After feedback on prior week (Levanta dropped — it's an Amazon-influencer SaaS, not a network; AvantLink → Spirion; LinkConnector → Spread; GiddyUp → Galatea; Soicos → Spirion; PopAds, TrafficShop, EZmob registered; PopMyAds testing). 9 searches run. 3 new ANs that pass the ecommerce CPS/CPA filter and 2 new TSs with confirmed ISP-level targeting.",
-      "searches_run": 9,
+      "summary": "Deep manual run — Vlad asked for quality over quantity, real networks only. 14 searches across mThink, Business of Apps, RichAds/ROIads roundups, Affpaying, Crunchbase, regional-language sources (Brazil, Nordics, CIS, India). Roster is getting heavy, so the bar was high: only candidates not in any prior discovery or roster, passing ecom CPS/CPA (for ANs) and Pop/Popunder+ISP (for TSs). 3 strong ANs in fresh GEOs (Nordics, LATAM, CIS+APAC) and 1 TS with full ISP/carrier targeting.",
+      "searches_run": 14,
       "model": "claude-code-manual-run",
       "affiliate_networks": [
         {
-          "name": "Tracdelight",
-          "website": "https://www.tracdelight.io/en/",
-          "description": "Germany's largest fashion/beauty/lifestyle performance network. 2,000+ premium publishers and bloggers, shoppable-content widgets connecting publishers directly to retailer SKUs. Strict premium-publisher curation = clean inventory. Pure ecommerce play.",
-          "type": "CPS / Performance",
-          "geo": "DACH + EU (fashion-heavy)",
-          "commission_model": "CPS",
-          "vertical": "Fashion / Beauty / Lifestyle ecommerce",
-          "source": "Tracdelight.io + Crunchbase + Munich-Startup",
-          "suggested_company": "Spread or Galatea (fashion overlap)"
+          "name": "Adservice",
+          "website": "https://www.adservice.com/en/",
+          "description": "Leading Nordic affiliate network since 2007. Presence in DK/SE/NO/FI/DE/ES/FR/MX. Performance-based, only paid on actual sales. Strong in Norway (loans/credit cards) but full ecom portfolio across the Nordics. Note: currently unifying operations with Adtraction.",
+          "type": "CPS / CPA",
+          "geo": "Nordics + DACH + ES + FR + MX",
+          "commission_model": "CPS / CPA",
+          "vertical": "Ecommerce + Finance (we use ecom side)",
+          "source": "Adservice.com + AffVerify review + Business of Apps 2026",
+          "assigned_to": "Spirion",
+          "caveat": "Adtraction is 'Not Approved' in Spirion already — Ergys to flag if Adservice rejects on same grounds"
         },
         {
-          "name": "Perform[cb]",
-          "website": "https://www.performcb.com",
-          "description": "Voted #1 in Outcomes worldwide 7 years running by mThink. AI media-buying platform that auto-matches traffic to highest-EPC ecommerce campaigns. Reports a 36% EPC lift for affiliates. Weekly payouts, $50 min, ACH/PayPal/wire.",
-          "type": "CPA / CPL / CPS / CPI",
-          "geo": "Global (Tier-1 strong)",
-          "commission_model": "CPA / CPS / CPL",
-          "vertical": "Ecommerce + LeadGen (we'd use ecom side only)",
-          "source": "G2 reviews + Affpaying + ZorbasMedia review",
-          "suggested_company": "Innovate or Spirion"
+          "name": "Lomadee",
+          "website": "https://www.lomadee.com",
+          "description": "Leading Brazilian affiliate-marketing platform. Founded 2009, acquired by A&EIGHT (2024) and recently re-launched under original name. 1M+ affiliates, 350+ brands, placements across 100K+ Brazilian sites/groups/profiles. Pure pay-per-sale, zero setup fees. Pure ecommerce play, LATAM-dominant.",
+          "type": "CPS",
+          "geo": "Brazil / LATAM",
+          "commission_model": "CPS (pay-per-sale)",
+          "vertical": "Ecommerce (pure)",
+          "source": "Ecommerce Update + Yotpo blog + LeadIQ profile",
+          "assigned_to": "Spread"
         },
         {
-          "name": "AdJuice Network",
-          "website": "https://www.adjuice.net",
-          "description": "12+ years operating in lead-gen / ecommerce / affiliate marketing. Distributes leads to 350+ retail clients across 7 verticals. Ecommerce-focused buyer base, experienced AM team.",
-          "type": "CPA / CPS",
-          "geo": "Global (US-leaning)",
-          "commission_model": "CPA / CPS",
-          "vertical": "Retail ecommerce + LeadGen",
-          "source": "Affpaying review",
-          "suggested_company": "Omnia or Impulsprom (empty rosters — good entry point)"
+          "name": "SalesDoubler",
+          "website": "https://salesdoubler.pro/en/",
+          "description": "International affiliate network out of Ukraine. Multi-vertical: Fintech, E-commerce, Services, Education, Crypto. Active in CIS (KZ/MD/AZ/UZ), APAC, LATAM. CPI/CPL/CPS pricing models. Fills a GEO gap in current rosters (CIS + APAC).",
+          "type": "CPS / CPL / CPI",
+          "geo": "CIS (KZ/MD/AZ/UZ) + APAC + LATAM",
+          "commission_model": "CPS / CPL / CPI",
+          "vertical": "Ecommerce + Services (we use ecom side)",
+          "source": "Affpaying review + Salesdoubler.pro + Business of Apps 2026",
+          "assigned_to": "Galatea"
         }
       ],
       "traffic_sources": [
         {
-          "name": "Reacheffect",
-          "website": "https://reacheffect.com",
-          "description": "Pop/Push/Banner/Native, 2B+ clicks/month, 200+ countries (top: US, MX, CN, JP, FR, IT). Operating since 2012. Strong AM support, fast approvals.",
-          "type": "Popunder / Push / Banner / Native",
+          "name": "MyBid",
+          "website": "https://mybid.io/en",
+          "description": "6B daily impressions across 200+ countries. 400M popunder clicks/month. Min CPC $0.00008. Both fully-managed and self-serve options (self-serve launched 2024). Premium-positioned traffic.",
+          "type": "Popunder / Push / In-page",
           "geo": "Global (200+ countries)",
-          "isp_targeting": "YES — full ISP filtering + IP filtering + States + Cities + carrier",
-          "icloud_targeting": "Not advertised explicitly, but full Apple/iOS device + carrier filtering supported",
-          "source": "Reacheffect.com + Affroom 2026 review + RichAds roundup",
-          "fit_note": "Tier-1 volume + ISP filter = exactly what Vlad asked for"
-        },
-        {
-          "name": "FatAds",
-          "website": "https://fatads.com",
-          "description": "Newer pop+push network built by media-buying professionals. AI-driven bid optimization. Smaller scale than the giants but cleaner traffic, designed for experienced affiliates.",
-          "type": "Popunder / Push",
-          "geo": "Global",
-          "isp_targeting": "YES — country, region, city, device, OS, browser, browser language, ISP, and carrier",
-          "icloud_targeting": "Not explicitly listed; carrier targeting available",
-          "source": "RichAds 2026 popunder roundup + ROIads roundup",
-          "fit_note": "Pop format + ISP targeting confirmed; positioned as 'high quality optimized' not cheap volume"
+          "isp_targeting": "YES — full ISP + carrier + city + region + device + OS + browser + language",
+          "icloud_targeting": "Not explicitly listed; carrier + iOS device filtering supported",
+          "source": "Mobidea Academy review + AffMaven review + Affpaying + Trustpilot + Mybid.io",
+          "assigned_to": "Innovate",
+          "caveat": "Trustpilot reviews mixed — some users report top-4 performance, others call it scam. Start with small test budget ($50–100) before scaling."
         }
       ],
-      "rejected_as_duplicates_or_filter": {
+      "rejected_this_week": {
         "networks": [
-          "ClickDealer (rejected — not approved historically)",
-          "MaxBounty (already in last week's discoveries)",
-          "Mobidea (already in last week's discoveries — and mobile/non-ecom heavy)",
-          "MyLead (already in last week's discoveries)",
-          "Indoleads (already in last week's discoveries)",
-          "AdCombo (already in last week's discoveries — nutra-heavy, doesn't fit ecom-only filter)",
-          "ShareASale (already in Spread roster)",
-          "Daisycon (already across multiple companies)",
-          "Tradedoubler / Rakuten / Awin / FlexOffers / Impact / CJ (already across rosters)",
-          "CrakRevenue (filter fail — adult/dating/cam, not ecommerce)",
-          "TerraLeads / Zeydoo (filter fail — nutra/sweepstakes, not pure ecom)"
+          "Pepperjam — only 0.17% market share, PayPal only, Ascend program discontinued, ownership churn (Partnerize-acquired)",
+          "Sovrn Commerce (VigLink) — JavaScript auto-affiliating model, suited for content publishers not media buyers",
+          "Hotmart — digital products only (courses/ebooks), not physical ecommerce",
+          "GdeSlon — Russia-based, sanctions risk",
+          "Affoy — India-only, doesn't match company GEOs",
+          "vCommission — already in Spirion roster",
+          "Cuelinks — already in 4 rosters",
+          "Adtraction — already 'Not Approved' in Spirion",
+          "Levanta — confirmed NOT a network (Amazon-influencer SaaS), permanently dropped"
         ],
         "traffic_sources": [
-          "PropellerAds, RichAds, AdMaven, Clickadu, Adsterra, PopCash, ClickAdu, HilltopAds, Galaksion, AdCash (already in roster)",
-          "ROIads, EvaDav, OnClickA, TwinRed, Mondiad, Taboola, Zeropark, TrafficStars (already in last week's discoveries)"
+          "ExoClick — adult-vertical heavy, doesn't fit ecom-only focus",
+          "Mirelia Networks — dating-exclusive, filter fail",
+          "Affmy — dating premium only, filter fail",
+          "DatsPush — push-only, not popunder",
+          "Coinis — only 'connection type' targeting, no full ISP filter",
+          "TacoLoco — no ISP targeting in spec",
+          "AdsCompass — only carrier targeting, no full ISP",
+          "ADxAD / Adavice — verticals not aligned (gambling/dating/nutra heavy)",
+          "Adsempire — insufficient public info to verify quality",
+          "Kadam — already in Adoperator/clickadilla family rosters as 'kadam'"
         ]
-      },
-      "feedback_from_last_week": {
-        "Levanta": "Dropped — it's a creator/Amazon-influencer SaaS platform, not a network. Tommy will not surface it again.",
-        "AvantLink": "Assigned to Spirion (Ergys to register)",
-        "LinkConnector": "Assigned to Spread (Ergys to register)",
-        "GiddyUp": "Assigned to Galatea (Ergys to register)",
-        "Soicos": "Assigned to Spirion (Ergys to register)",
-        "PopAds": "Registered",
-        "PopMyAds": "Testing — same parent as PopCash, may overlap",
-        "TrafficShop": "Registered — pending evaluation",
-        "EZmob": "Already registered — Vlad to verify activity"
       }
+    },
+    {
+      "date": "2026-05-04",
+      "generated_at": "2026-05-04T08:00:00.000Z",
+      "summary": "Manual run — Vlad sharpened focus: ecommerce CPS/CPA only, Pop/Popunder only, check ISP/iCloud targeting. Added Tracdelight (Spread/Galatea), Perform[cb] (Innovate/Spirion), AdJuice (Omnia/Impulsprom). Traffic sources: Reacheffect, FatAds (both with ISP targeting).",
+      "searches_run": 9,
+      "model": "claude-code-manual-run",
+      "affiliate_networks_count": 3,
+      "traffic_sources_count": 2,
+      "note": "Full details preserved in git history."
     },
     {
       "date": "2026-04-28",
       "generated_at": "2026-04-28T12:00:00.000Z",
-      "summary": "Second run today — searched CPA networks, cashback platforms (EU/APAC), Nordic/LATAM GEOs, push/pop/native traffic sources via RichAds/ROIads roundups, AffLIFT, and Affpaying. Strongest new AN find: Zeydoo (sweepstakes/utilities, 200+ GEOs, 2.5M daily conversions) and ShopBack (APAC cashback giant, $350M raised). Strongest new TS find: Zeropark (pop/domain redirect/commerce media). Run 1 (07:30 UTC) added 5 AN + 6 TS; Run 2 (this run) adds 6 AN + 2 TS.",
+      "summary": "Two runs in one day. AN finds: MyLead, Indoleads, TerraLeads, Wildfire, Loyalize, MaxBounty, Zeydoo, AdCombo, LetyShops, Mobidea, ShopBack. TS finds: ROIads, EvaDav, OnClickA, TwinRed, Mondiad, Taboola, Zeropark, TrafficStars.",
       "searches_run": 16,
       "model": "claude-code-scheduled-agent",
       "affiliate_networks_count": 11,
       "traffic_sources_count": 8,
-      "note": "Full details preserved in git history (commit prior to 2026-05-04)."
+      "note": "Full details preserved in git history."
     }
   ]
 }

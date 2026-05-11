@@ -58,6 +58,7 @@
       { "name": "digitalocean", "status": "In progress" }
     ],
     "Spread": [
+      { "name": "Lomadee", "status": "In progress" },
       { "name": "LinkConnector", "status": "In progress" },
       { "name": "linkbux", "status": "Done" },
       { "name": "noctemque", "status": "Done" },
@@ -97,6 +98,7 @@
       { "name": "collabglow", "status": "Done" }
     ],
     "Spirion": [
+      { "name": "Adservice", "status": "In progress" },
       { "name": "AvantLink", "status": "In progress" },
       { "name": "Soicos", "status": "In progress" },
       { "name": "AWIN", "status": "In progress" },
@@ -133,6 +135,7 @@
       { "name": "TradeDoubler", "status": "Done" }
     ],
     "Galatea": [
+      { "name": "SalesDoubler", "status": "In progress" },
       { "name": "GiddyUp", "status": "In progress" },
       { "name": "TradeDoubler", "status": "In progress" },
       { "name": "Linkbux", "status": "Done" },
@@ -178,6 +181,7 @@
     { "name": "PopAds", "status": "In progress" },
     { "name": "PopMyAds", "status": "In progress" },
     { "name": "TrafficShop", "status": "In progress" },
-    { "name": "EZmob", "status": "Active" }
+    { "name": "EZmob", "status": "Active" },
+    { "name": "MyBid", "status": "In progress", "company": "Innovate" }
   ]
 }
