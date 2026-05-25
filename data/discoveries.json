@@ -1,11 +1,105 @@
 {
-  "generated_at": "2026-05-11T08:30:00.000Z",
-  "last_run": "2026-05-11T08:30:00.000Z",
+  "generated_at": "2026-05-11T14:30:00.000Z",
+  "last_run": "2026-05-11T14:30:00.000Z",
   "next_run": "2026-05-18T07:00:00.000Z",
-  "total_discoveries": 28,
+  "total_discoveries": 34,
   "history": [
     {
       "date": "2026-05-11",
+      "run": "Run 2 — US/UK/DE deep dive",
+      "generated_at": "2026-05-11T14:30:00.000Z",
+      "cadence": "manual-refinement",
+      "summary": "Second run today — Vlad supplied the full updated exclude list and 4 mThink Blue Book URLs, then refined focus to US/UK/DE only after first attempt covered too many fringe GEOs (MENA/AU/FR). 11 searches across mThink, Business of Apps, AdWeek, G2, Affpaying, regional German/UK sources. 6 approved (LTK and Mavely dropped as not relevant for our buyers).",
+      "searches_run": 11,
+      "model": "claude-code-manual-run",
+      "affiliate_networks": [
+        {
+          "name": "AdCell",
+          "website": "https://www.adcell.de/",
+          "description": "The mid-market leader for German-speaking countries. 2,500+ partner programs, 60K+ active publishers. Pure performance-based (CPS/CPL/CPA). Strong in retail, finance, contests, insurance.",
+          "type": "CPS / CPL / CPA",
+          "geo": "DACH (DE/AT/CH)",
+          "commission_model": "CPS / CPL / CPA",
+          "vertical": "Ecommerce + Finance (we use ecom side)",
+          "source": "Affpaying + AdCell.de + Campixx 2026 review",
+          "assigned_to": "Spirion"
+        },
+        {
+          "name": "digidip",
+          "website": "https://digidip.net/",
+          "description": "Berlin-based content-commerce platform — auto-converts editorial outbound links into affiliate-tracked links via a JS snippet. Aggregates inventory from multiple sub-networks. Founded 2013, ranked #9 in Germany's fastest-growing startups.",
+          "type": "Content-commerce / Sub-affiliate aggregator",
+          "geo": "Global (DE HQ, EU + US publishers)",
+          "commission_model": "CPS / Hybrid",
+          "vertical": "Ecommerce content monetization",
+          "source": "G2 reviews + digidip.net + Crunchbase",
+          "assigned_to": "Innovate"
+        },
+        {
+          "name": "Optimise Media",
+          "website": "https://optimisemedia.com/",
+          "description": "UK HQ global affiliate & partnership marketing network. Delivers $1B+ in attributed sales/year. Premium enterprise tier. Strong SE Asia + ANZ + global ecom case studies (22% B2C share, 4× growth).",
+          "type": "CPS / Performance Partnership",
+          "geo": "UK HQ, global (strong SE Asia + ANZ)",
+          "commission_model": "CPS / Hybrid",
+          "vertical": "Ecommerce (premium retail + consumer electronics)",
+          "source": "Optimisemedia.com + Business of Apps 2026",
+          "assigned_to": "Spirion"
+        },
+        {
+          "name": "ShopMy",
+          "website": "https://shopmymedia.com/",
+          "description": "Modern US creator network. 10–30% commissions (substantially higher than LTK's 3–14%). 1K+ followers entry bar. Weekly Friday payouts, $25 min. Auto-monetization applies highest available rate to every link. Fashion/beauty/lifestyle.",
+          "type": "Creator-affiliate / CPS",
+          "geo": "US (creator-driven)",
+          "commission_model": "CPS (10–30%)",
+          "vertical": "Ecommerce — Fashion / Beauty / Lifestyle",
+          "source": "StackInfluence comparison + ShopMy reviews + creator-hero 2026",
+          "assigned_to": "Spread"
+        },
+        {
+          "name": "Madrivo",
+          "website": "https://www.madrivo.com/",
+          "description": "First company to debut as Top-5 on mThink's Blue Book. 27.6B impressions/year, 3M+ qualified leads. Premium reputation, strict compliance, exclusive top-tier advertisers. Multi-channel: Display/Email/Mobile/Native/Social/Search/Video.",
+          "type": "CPS / CPA / CPL / CPI / CPC",
+          "geo": "US (premium)",
+          "commission_model": "CPS / CPA / multi-model",
+          "vertical": "Ecommerce + leadgen",
+          "source": "Affpaying + Kochava + ADSWikia + mThink Blue Book",
+          "assigned_to": "Galatea"
+        },
+        {
+          "name": "GuruMedia",
+          "website": "https://gurumedia.com/",
+          "description": "Operating since 2010 as exclusive CPS network. 2,000+ exclusive offers. CPS payouts $28–$120+ per sale, eCom up to $70. Weekly payments, $1 min via PayPal/Skrill. Hands-on support, rigorous quality control.",
+          "type": "CPS / CPA",
+          "geo": "Top GEOs: US, UK, CA, DE, FR, AU",
+          "commission_model": "CPS / CPA",
+          "vertical": "Ecommerce",
+          "source": "Affpaying + AffCaptain + Affgem + mThink + PublisherGrowth",
+          "assigned_to": "Galatea"
+        }
+      ],
+      "rejected_by_vlad": [
+        "LTK (rewardStyle) — not relevant for our buyer mix",
+        "Mavely — not relevant for our buyer mix"
+      ],
+      "rejected_by_tommy": {
+        "networks": [
+          "Howl (Narrativ) — AdWeek confirmed millions in delinquent payments — payment risk",
+          "Sovrn // Commerce — already in exclude list",
+          "Pepperjam / Ascend — now equals Partnerize (already excluded)",
+          "Affiliate Future — acquired by Adtraction (already 'Not Approved')",
+          "Affilinet — migrated into Awin",
+          "Digistore24 — digital products only, not physical ecom",
+          "Avangate — software/digital goods focus, not pure ecom",
+          "Commission Factory / CPX / DCMnetwork / TORO / Effiliation / TimeOne — out of US/UK/DE focus this round"
+        ]
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "run": "Run 1 — broad scan",
       "generated_at": "2026-05-11T08:30:00.000Z",
       "cadence": "weekly-monday",
       "summary": "Deep manual run — Vlad asked for quality over quantity, real networks only. 14 searches across mThink, Business of Apps, RichAds/ROIads roundups, Affpaying, Crunchbase, regional-language sources (Brazil, Nordics, CIS, India). Roster is getting heavy, so the bar was high: only candidates not in any prior discovery or roster, passing ecom CPS/CPA (for ANs) and Pop/Popunder+ISP (for TSs). 3 strong ANs in fresh GEOs (Nordics, LATAM, CIS+APAC) and 1 TS with full ISP/carrier targeting.",

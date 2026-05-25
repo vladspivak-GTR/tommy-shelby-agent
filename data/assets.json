@@ -17,6 +17,7 @@
   },
   "affiliate_networks": {
     "Innovate": [
+      { "name": "digidip", "status": "In progress" },
       { "name": "brandreward", "status": "Done" },
       { "name": "BonusArrive", "status": "Done" },
       { "name": "noctemque", "status": "Done" },
@@ -58,6 +59,7 @@
       { "name": "digitalocean", "status": "In progress" }
     ],
     "Spread": [
+      { "name": "ShopMy", "status": "In progress" },
       { "name": "Lomadee", "status": "In progress" },
       { "name": "LinkConnector", "status": "In progress" },
       { "name": "linkbux", "status": "Done" },
@@ -98,6 +100,8 @@
       { "name": "collabglow", "status": "Done" }
     ],
     "Spirion": [
+      { "name": "AdCell", "status": "In progress" },
+      { "name": "Optimise Media", "status": "In progress" },
       { "name": "Adservice", "status": "In progress" },
       { "name": "AvantLink", "status": "In progress" },
       { "name": "Soicos", "status": "In progress" },
@@ -135,6 +139,8 @@
       { "name": "TradeDoubler", "status": "Done" }
     ],
     "Galatea": [
+      { "name": "Madrivo", "status": "In progress" },
+      { "name": "GuruMedia", "status": "In progress" },
       { "name": "SalesDoubler", "status": "In progress" },
       { "name": "GiddyUp", "status": "In progress" },
       { "name": "TradeDoubler", "status": "In progress" },
