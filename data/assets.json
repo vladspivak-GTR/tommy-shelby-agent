@@ -17,6 +17,7 @@
   },
   "affiliate_networks": {
     "Innovate": [
+      { "name": "Effiliation", "status": "In progress" },
       { "name": "digidip", "status": "In progress" },
       { "name": "brandreward", "status": "Done" },
       { "name": "BonusArrive", "status": "Done" },
@@ -100,6 +101,7 @@
       { "name": "collabglow", "status": "Done" }
     ],
     "Spirion": [
+      { "name": "retailAds", "status": "In progress" },
       { "name": "AdCell", "status": "In progress" },
       { "name": "Optimise Media", "status": "In progress" },
       { "name": "Adservice", "status": "In progress" },
@@ -139,6 +141,7 @@
       { "name": "TradeDoubler", "status": "Done" }
     ],
     "Galatea": [
+      { "name": "Paid on Results", "status": "In progress" },
       { "name": "Madrivo", "status": "In progress" },
       { "name": "GuruMedia", "status": "In progress" },
       { "name": "SalesDoubler", "status": "In progress" },

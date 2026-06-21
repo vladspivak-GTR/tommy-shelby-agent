@@ -1,9 +1,63 @@
 {
-  "generated_at": "2026-05-11T14:30:00.000Z",
-  "last_run": "2026-05-11T14:30:00.000Z",
-  "next_run": "2026-05-18T07:00:00.000Z",
-  "total_discoveries": 34,
+  "generated_at": "2026-06-21T09:00:00.000Z",
+  "last_run": "2026-06-21T09:00:00.000Z",
+  "next_run": "2026-06-22T07:00:00.000Z",
+  "total_discoveries": 37,
   "history": [
+    {
+      "date": "2026-06-21",
+      "run": "Multi-agent deep recon (2 rounds)",
+      "generated_at": "2026-06-21T09:00:00.000Z",
+      "cadence": "manual-deep-research",
+      "summary": "Tommy ran a two-round multi-agent workflow (~69 subagents, ~2.4M tokens). Round 1 (US/UK/DE ecom CPS/CPA): 51 raw -> 24 unique -> 23 verified -> 4 kept (retailAds, MagicLinks, Paid on Results, PartnerBoost). Round 2 (open-network only; no creator-first, no China-DTC-hybrid): 39 raw -> 15 unique -> 1 viable (Effiliation, GEO-mismatch but Vlad approved). Vlad approved 3, rejected MagicLinks (creator-first, same as LTK/Mavely) and PartnerBoost (tried before, didn't work). Conclusion: net-new US/UK/DE OPEN ecommerce CPS pool is largely exhausted after a very mature roster.",
+      "searches_run": 0,
+      "model": "claude-opus-4-8 + general-purpose workflow subagents",
+      "affiliate_networks": [
+        {
+          "name": "retailAds",
+          "website": "https://www.retailads.net",
+          "description": "Pure-play ecommerce retail network in the verticalAds Group, DACH-rooted. Online-shops exclusively, zero fringe verticals. Clean 4.7/5 payment reputation (OMR, 56 reviews).",
+          "type": "Affiliate network (open)",
+          "geo": "Germany / DACH",
+          "commission_model": "CPS/CPO primary; also CPC, TKP, combination models",
+          "vertical": "Ecommerce retail (online shops only)",
+          "source": "verticalAds Group profile + OMR Reviews (4.7/5) + retailads.net",
+          "assigned_to": "Spirion"
+        },
+        {
+          "name": "Paid on Results",
+          "website": "https://www.paidonresults.com",
+          "description": "Independent 19-year UK retail affiliate network. Clean ecommerce merchant base (fashion, beauty, home & garden, electronics, general merchandise), no non-payment evidence. Thin third-party review footprint, UK-only scope.",
+          "type": "Affiliate network (open)",
+          "geo": "UK",
+          "commission_model": "CPS primary; also CPA",
+          "vertical": "Ecommerce retail (UK consumer brands)",
+          "source": "paidonresults.com merchant directory + publisher testimonials",
+          "assigned_to": "Galatea"
+        },
+        {
+          "name": "Effiliation",
+          "website": "https://www.effiliation.com/",
+          "description": "Long-running open European ecommerce network (part of Effinity Group), launched ~2000. 600+ retail advertisers, 25k+ publishers, usable by paid-media buyers. Strength is FR/Southern Europe with secondary UK/DACH; minimal US. Approved by Vlad despite GEO-mismatch. NOTE: join the open managed network, not just the Effinity SaaS tracker; do NOT confuse with the unrelated 'Affiliati Network'.",
+          "type": "Affiliate network (open)",
+          "geo": "France HQ + secondary UK/DACH + Southern Europe",
+          "commission_model": "CPS/CPA primary; also CPL, CPC",
+          "vertical": "Ecommerce retail (fashion, lifestyle, home & garden, electronics, general merchandise)",
+          "source": "Effinity Group + Affpaying listing",
+          "assigned_to": "Innovate"
+        }
+      ],
+      "rejected_by_vlad": [
+        "MagicLinks — creator/influencer-first, not our buyer mix (same reason as LTK + Mavely)",
+        "PartnerBoost — tried before, didn't work (China-DTC-heavy, hybrid SaaS+network)"
+      ],
+      "rejected_by_tommy": {
+        "networks": [
+          "Effiliation re-surfaced via Round 2 finder but was already flagged GEO-mismatch on 2026-05-11 — kept only because Vlad approved",
+          "~30+ candidates dropped at adversarial verify across both rounds (GEO-mismatch, creator-first, coupon/cashback, unconfirmable, or merged into excluded networks)"
+        ]
+      }
+    },
     {
       "date": "2026-05-11",
       "run": "Run 2 — US/UK/DE deep dive",
