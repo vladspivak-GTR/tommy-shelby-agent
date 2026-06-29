@@ -60,6 +60,7 @@
       { "name": "digitalocean", "status": "In progress" }
     ],
     "Spread": [
+      { "name": "NetSalesMedia", "status": "In progress" },
       { "name": "ShopMy", "status": "In progress" },
       { "name": "Lomadee", "status": "In progress" },
       { "name": "LinkConnector", "status": "In progress" },
@@ -101,6 +102,7 @@
       { "name": "collabglow", "status": "Done" }
     ],
     "Spirion": [
+      { "name": "Convertiser", "status": "In progress" },
       { "name": "retailAds", "status": "In progress" },
       { "name": "AdCell", "status": "In progress" },
       { "name": "Optimise Media", "status": "In progress" },
@@ -141,6 +143,7 @@
       { "name": "TradeDoubler", "status": "Done" }
     ],
     "Galatea": [
+      { "name": "The Affiliate Gateway", "status": "In progress" },
       { "name": "Paid on Results", "status": "In progress" },
       { "name": "Madrivo", "status": "In progress" },
       { "name": "GuruMedia", "status": "In progress" },
