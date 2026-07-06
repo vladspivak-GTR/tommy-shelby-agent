@@ -1,9 +1,85 @@
 {
-  "generated_at": "2026-06-29T09:00:00.000Z",
-  "last_run": "2026-06-29T09:00:00.000Z",
-  "next_run": "2026-06-30T07:00:00.000Z",
-  "total_discoveries": 40,
+  "generated_at": "2026-07-06T09:00:00.000Z",
+  "last_run": "2026-07-06T09:00:00.000Z",
+  "next_run": "2026-07-13T07:00:00.000Z",
+  "total_discoveries": 45,
   "history": [
+    {
+      "date": "2026-07-06",
+      "run": "Multi-agent deep recon (round 5, fresh angles)",
+      "generated_at": "2026-07-06T09:00:00.000Z",
+      "cadence": "manual-deep-research",
+      "summary": "Best haul in a month. New search angles (tier-2 local-language networks, publisher-forum chatter, B2B databases, Affilitizer-style program-to-network maps, conference exhibitor lists) broke the plateau. 62 subagents: 90 raw -> 45 unique -> 6 verified. Vlad approved 5 (Connexity dropped — requires an owned landing/comparison site, not direct-linking). PL + DE carried the round; Spain came back empty again (its retail runs on networks already on our roster).",
+      "searches_run": 0,
+      "model": "claude-opus-4-8 + general-purpose workflow subagents",
+      "affiliate_networks": [
+        {
+          "name": "MCANISM",
+          "website": "https://mcanism.com",
+          "description": "German (Hamburg) open CPS/CPA affiliate network on the proprietary Skynet platform. 3,577 programs, 2,000+ partners, OMR 4.7/5 (56 reviews), Shopify partnership (Nov 2025). Paid-media traffic explicitly accepted. Payouts 2x/month, EUR50 min. CAVEATS: one detailed EUR1,700 unpaid-publisher Trustpilot complaint on a thin review base (start small, verify first payment cycle); catalog contains some China-DTC programs (ZAPAKA etc.) — work DACH-brand supply only.",
+          "type": "Open affiliate network (CPS/CPA/PPL/PPI)",
+          "geo": "DE / DACH",
+          "geo_tier": "primary",
+          "commission_model": "CPS-primary; CPA/PPL/PPI supported",
+          "vertical": "Ecommerce (beauty, fashion, tech) + travel/subscriptions",
+          "source": "100partnerprogramme.de + OMR reviews + Trustpilot + Shopify announcement",
+          "assigned_to": "Spirion"
+        },
+        {
+          "name": "Performers",
+          "website": "https://performers.pl",
+          "description": "Independent Polish open affiliate network (Warsaw). Publisher self-registration (no contract), curated advertiser roster, ecommerce-first. Audited 24.6M PLN 2023 revenue, profitable, good publisher reputation (make-cash.pl), fast invoiced payouts. CAVEAT: publisher page markets to content/social publishers — confirm paid-traffic acceptance with AM at signup.",
+          "type": "Independent open affiliate network",
+          "geo": "PL",
+          "geo_tier": "secondary",
+          "commission_model": "CPS/CPO/CPL/CPA/CPC + hybrids",
+          "vertical": "Ecommerce (primary) + telecom/finance",
+          "source": "performers.pl + KRS 0000605589 audited financials + make-cash.pl",
+          "assigned_to": "Spread"
+        },
+        {
+          "name": "INIS",
+          "website": "https://www.inis.pl",
+          "description": "Polish open affiliate network (INIS Affiliation), part of Warsaw-Stock-Exchange-listed Digitree Group. ~100 managed partner programs/month, ecommerce/retail CPS (fashion, health & beauty) plus finance/telco leadgen. Strongest solvency signal of the PL trio, zero complaint history EN/PL. CAVEAT: modest scale, email-marketing-heavy parent — small test onboarding first.",
+          "type": "Open affiliate network (Digitree Group)",
+          "geo": "PL",
+          "geo_tier": "secondary",
+          "commission_model": "CPS / CPA / CPL / CPC",
+          "vertical": "Ecommerce/retail + finance/telco leadgen",
+          "source": "inis.pl + Digitree Group S.A. (WSE) filings + clean EN/PL complaint search",
+          "assigned_to": "Innovate"
+        },
+        {
+          "name": "LeadStar",
+          "website": "https://leadstar.pl",
+          "description": "Polish open affiliate network (free registration incl. foreign companies, usable by paid-media buyers). Real named retail brands verified on homepage: Douglas, Crocs, Sportano, Vobis, Zelmer, Dreame. Clean payment record, 1 PLN min payout, express transfers. CAVEAT: historically finance-first per independent PL reviews — cherry-pick the retail campaigns.",
+          "type": "Open affiliate network",
+          "geo": "PL",
+          "geo_tier": "secondary",
+          "commission_model": "CPS/CPA (also CPL/CPC/CPM)",
+          "vertical": "Retail ecommerce + finance/leadgen",
+          "source": "leadstar.pl homepage + Jan 2026 PL review + Scam Detector + AJA Media Group record",
+          "assigned_to": "Galatea"
+        },
+        {
+          "name": "ADCocktail",
+          "website": "https://www.adcocktail.com",
+          "description": "20-year-old German long-tail open affiliate network (SX-WebSolutions GmbH, Cottbus). 17,541 publishers, 1,044 active campaigns (625 shopping). Weekly payouts, EUR10 min, bank/PayPal, 20-25% network fee. CAVEAT: ~5-person shop, 3.11/5 VermarkterCheck, no known brands, 40% non-shopping — use as capped-exposure SuperClix-class supplement, not a pillar.",
+          "type": "Open affiliate network (hybrid display/marketplace)",
+          "geo": "DE",
+          "geo_tier": "primary",
+          "commission_model": "CPS (up to ~15-20%) + CPL/CPC/TKP",
+          "vertical": "Shopping/ecommerce (largest category) + services/software/travel",
+          "source": "adcocktail.com + 100partnerprogramme.de + VermarkterCheck",
+          "assigned_to": "Innovate"
+        }
+      ],
+      "rejected": [
+        "Connexity (Taboola) — strong US/UK retail network but requires an owned landing/comparison site (arbitrage pattern), not direct-linking; Vlad dropped it",
+        "Skimlinks — SaaS auto-affiliation tool, not an open network",
+        "Spain — 0 qualifying ES networks again; ES retail runs on networks already on the roster"
+      ]
+    },
     {
       "date": "2026-06-29",
       "run": "Multi-agent deep recon (rounds 3-4, 5-geo focus)",

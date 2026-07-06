@@ -17,6 +17,8 @@
   },
   "affiliate_networks": {
     "Innovate": [
+      { "name": "INIS", "status": "In progress" },
+      { "name": "ADCocktail", "status": "In progress" },
       { "name": "Effiliation", "status": "In progress" },
       { "name": "digidip", "status": "In progress" },
       { "name": "brandreward", "status": "Done" },
@@ -60,6 +62,7 @@
       { "name": "digitalocean", "status": "In progress" }
     ],
     "Spread": [
+      { "name": "Performers", "status": "In progress" },
       { "name": "NetSalesMedia", "status": "In progress" },
       { "name": "ShopMy", "status": "In progress" },
       { "name": "Lomadee", "status": "In progress" },
@@ -102,6 +105,7 @@
       { "name": "collabglow", "status": "Done" }
     ],
     "Spirion": [
+      { "name": "MCANISM", "status": "In progress" },
       { "name": "Convertiser", "status": "In progress" },
       { "name": "retailAds", "status": "In progress" },
       { "name": "AdCell", "status": "In progress" },
@@ -143,6 +147,7 @@
       { "name": "TradeDoubler", "status": "Done" }
     ],
     "Galatea": [
+      { "name": "LeadStar", "status": "In progress" },
       { "name": "The Affiliate Gateway", "status": "In progress" },
       { "name": "Paid on Results", "status": "In progress" },
       { "name": "Madrivo", "status": "In progress" },
