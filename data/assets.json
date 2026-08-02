@@ -226,8 +226,16 @@
       { "name": "ShopMy", "assigned_to": "Spread", "surfaced": "2026-05-11" },
       { "name": "Madrivo", "assigned_to": "Galatea", "surfaced": "2026-05-11" },
       { "name": "Adservice", "assigned_to": "Spirion", "surfaced": "2026-05-11" },
-      { "name": "GiddyUp", "assigned_to": "Galatea", "surfaced": "2026-04-28" }
-    ]
+      { "name": "GiddyUp", "assigned_to": "Galatea", "surfaced": "2026-04-28" },
+      { "name": "ad4mat", "assigned_to": "Innovate", "surfaced": "2026-07-13", "type": "sub-affiliate aggregator (70+ networks)", "priority_inventory": "Awin via Zanox lineage — live 2026 feed unverified" },
+      { "name": "Adpump", "assigned_to": "Innovate", "surfaced": "2026-07-13", "type": "direct network", "note": "best Western geo breadth US/UK/DE/PL/ES; advertiser-side traffic-quality complaint Sept 2025" },
+      { "name": "RevGlue", "assigned_to": "Spirion", "surfaced": "2026-07-13", "type": "sub-affiliate aggregator", "priority_inventory": "Awin CONFIRMED — named per-store on /research", "note": "GBP100 min, 30-day hold; Awin pop bans sit upstream; site content stale since 2022" },
+      { "name": "Targetcircle", "assigned_to": "Spirion", "surfaced": "2026-07-13", "type": "advertiser-SaaS + open partner marketplace", "note": "explicitly accepts 'Networks & Media Buyers' partner category" },
+      { "name": "Adnamics", "assigned_to": "Spread", "surfaced": "2026-07-13", "type": "sub-affiliate aggregator", "priority_inventory": "Webgains CONFIRMED (Not Approved for us in 3 companies) — Awin/TD unverified", "note": "ex-Awin/TradeDoubler/Webgains DACH management; founded 2023, zero publisher reviews" },
+      { "name": "Addrevenue", "assigned_to": "Spread", "surfaced": "2026-07-13", "type": "direct network", "note": "cleanest payments: closed 1st, paid 25th; Strackr-ready API" },
+      { "name": "AffiliatePort", "assigned_to": "Galatea", "surfaced": "2026-07-13", "type": "direct network", "note": "domain is affiliateport.eu — the .com is DEAD; CZ/SK/PL retail (Alza, Notino, Bonami, Zalando)" }
+    ],
+    "universal_blocker_2026_07_13": "NONE of these 7 publishes a pop/popunder policy. Every application must lead with a written question on pop acceptance, and the 3 aggregators must be asked for their upstream network list (specifically whether Awin/TradeDoubler/FlexOffers advertisers are in the feed). Verify one full payout before scaling."
   },
   "dead_or_absorbed": {
     "note": "Intel for roster hygiene — these no longer exist as independent joinable networks.",

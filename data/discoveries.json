@@ -1,9 +1,108 @@
 {
-  "generated_at": "2026-07-06T09:00:00.000Z",
-  "last_run": "2026-07-06T09:00:00.000Z",
-  "next_run": "2026-07-13T07:00:00.000Z",
-  "total_discoveries": 45,
+  "generated_at": "2026-07-13T12:00:00.000Z",
+  "last_run": "2026-07-13T12:00:00.000Z",
+  "next_run": "2026-07-20T07:00:00.000Z",
+  "total_discoveries": 52,
   "history": [
+    {
+      "date": "2026-07-13",
+      "run": "Round 7 — sub-affiliate aggregators carrying Awin/TradeDoubler/FlexOffers inventory",
+      "generated_at": "2026-07-13T12:00:00.000Z",
+      "cadence": "manual-deep-research",
+      "summary": "Biggest run to date: 120 subagents, 5.68M tokens, 238 raw -> 101 unique -> 10 survived. BREAKTHROUGH ANGLE: Vlad revealed the operation converts best on advertiser offers ORIGINATING from Awin/TradeDoubler/FlexOffers, and that its best existing partners are sub-affiliate aggregators (LinkBux/Takeads/Admitad/Cuelinks/BlueAff/Eclicklink class). Retargeting the search at that model — instead of net-new open retail networks, which are exhausted — produced 3 genuine aggregators plus 4 usable direct networks. Vlad approved all 7.",
+      "searches_run": 0,
+      "model": "claude-opus-5 + general-purpose workflow subagents",
+      "affiliate_networks": [
+        {
+          "name": "ad4mat (advanced store GmbH)",
+          "website": "https://www.ad4mat.com/",
+          "description": "Multi-network sub-affiliate aggregator + publisher monetization platform. One account across a claimed 70+ networks / 50,000+ advertisers with NO per-program approvals and unified consolidated billing. Signup form's publisher-model field literally offers 'Subnetwork'. Western supply incl. Decathlon, Crocs, Swarovski, Samsung, Acer, Conrad. CPO(=CPS) rev-share, historical 80/20 split, EUR50 min, monthly by the 10th.",
+          "type": "Sub-affiliate aggregator",
+          "geo": "DE/AT/CH core, EU-wide (entities Berlin/Sao Paulo/Tokyo)",
+          "priority_inventory": "PARTIAL — Awin via lineage: VermarkterCheck documents ad4mat serving units inside ZANOX across 150+ programs at 80% of Zanox rates; Zanox+Affiliate Window merged into AWIN 2017. Dated evidence, live 2026 feed NOT confirmed. TradeDoubler + FlexOffers unverified.",
+          "caveats": "Network list never disclosed publicly (70+/50k unauditable). Parent is itself a CPO media buyer on FB/IG/TikTok — potential competitor for same inventory. Business entities only, 10k impressions/month floor. No pop category in traffic-source checkboxes; ToS bans 'manipulation of the AdTechs by technical devices' — could be aimed at forced-view. Thin review base (~13). ABC/EDAA trust seal lapsed. Old forum mention of ~120-day validation delays.",
+          "source": "Direct fetches ad4mat.com (home/register/FAQ/ToS/Advanced API/sitemap), German register HRB 115601 B, VermarkterCheck.de, OMR reviews",
+          "assigned_to": "Innovate"
+        },
+        {
+          "name": "RevGlue (REVGLUE LTD)",
+          "website": "https://www.revglue.com",
+          "description": "UK sub-affiliate network / publisher monetization platform. Publisher earns rev-share on RevGlue's own affiliate IDs. 30M+ product catalog across UK fashion/beauty/home/electronics. T&Cs: RevGlue retains 20%, publisher 80%.",
+          "type": "Sub-affiliate aggregator",
+          "geo": "UK primary (little to no US/DE/PL/ES)",
+          "priority_inventory": "AWIN CONFIRMED — strongest evidence in the batch. Public program directory at revglue.com/research names the source network per store; all ~20 visible stores attributed to Awin (Loulerie, Shuttle Direct, tickit, Official Hoverboard, NeoTaste, 200 Degrees Coffee, MCoBeauty, The Night Sky, Sterling Home, Embassy London). Caveat: evidences Awin as DATA SOURCE, not that every listed program is monetizable via RevLinks. TradeDoubler/FlexOffers never named.",
+          "caveats": "SEVERE CONTENT STALENESS — newest blog 24 May 2022, newest forum thread Sept 2021, multiple 404s (/about-us, /affiliate-networks, /terms-and-conditions) suggesting maintenance mode; Companies House 10541218 shows entity current (confirmation statement 10 Mar 2026). Essentially one-founder Manchester operation — liquidity risk. GBP100 min, 30-day hold, 180-day fallback clause. No traffic-source policy published; because supply is Awin-sourced, Awin advertisers' own pop/adware bans sit UPSTREAM with RevGlue exposed in the middle. Trustpilot 403 — no independent payment reputation obtainable.",
+          "source": "Direct fetches revglue.com (home/research/FAQ/RevLinks/T&Cs/register), UK Companies House 10541218",
+          "assigned_to": "Spirion"
+        },
+        {
+          "name": "Adnamics (adnamics GmbH)",
+          "website": "https://www.adnamics.com",
+          "description": "Berlin sub-affiliate aggregator — sits as a publisher on top of major networks and redistributes that advertiser pool downstream under a single registration. Advertiser logos: EMP, Flaconi, Alibaba. Management are ex-Awin/TradeDoubler/Webgains DACH. PASS-THROUGH payment: pays 14 calendar days AFTER receiving commission from upstream network.",
+          "type": "Sub-affiliate aggregator",
+          "geo": "Germany / DACH",
+          "priority_inventory": "WEBGAINS CONFIRMED, priority three UNVERIFIED. Webgains hosts its own 'Publisher Spotlight: adnamics' page describing adnamics as an active publisher monetizing 'a variety of domains'. PROBLEM: Webgains is 'Not Approved' for us in Innovate, Spread and Spirion — if Webgains is their only upstream, the value is questionable. MUST ASK.",
+          "caveats": "ZERO independent publisher track record — no reviews, forum threads, payout reports or complaints in either direction; absence of scandal = absence of data. Founded 2023, thinly capitalised. Payouts sit behind own upstream receipts +14 days. No rate card, no percentage, no threshold published. ToS bans 'manipulation by technical devices'.",
+          "source": "adnamics.com + app.adnamics.com/register + Webgains Publisher Spotlight page",
+          "assigned_to": "Spread"
+        },
+        {
+          "name": "Adpump",
+          "website": "https://adpump.com/en/register",
+          "description": "Direct-advertiser CPA/CPS network on proprietary SaaS. BEST WESTERN GEO BREADTH of the batch — genuinely hits US/UK/DE/PL/ES plus Canada, Brazil, NL, FR, IT, MENA, CIS, APAC, AU. Publisher FAQ expressly accommodates media buyers: 'whether you have your own website or buy traffic elsewhere', multiple traffic sources per account. Weekly payouts on auto-request; PayPal/wire/crypto.",
+          "type": "Direct network (self-markets as aggregator, but supply is direct)",
+          "geo": "Global Western + CIS — US/UK/DE/PL/ES all covered",
+          "priority_inventory": "UNVERIFIED — no Awin/TradeDoubler/FlexOffers mention anywhere; frames supply as direct advertiser relationships. Do NOT treat as a priority-inventory partner.",
+          "caveats": "MOST MATERIAL RED FLAG IN BATCH: Sept 2025 AffPaying review from the ADVERTISER side alleges Adpump violated terms and that 'most of the purchases they drove were all fraudulent or chargebacks'. Not publisher non-payment, but a network already burned on traffic quality will scrutinise pop traffic hard. 'NET7' is marketing — own FAQ says conversions validate slower.",
+          "source": "adpump.com (publishers page, register, publisher FAQ, rules-eu) + AffPaying",
+          "assigned_to": "Innovate"
+        },
+        {
+          "name": "Targetcircle (Target Circle AS)",
+          "website": "https://www.targetcircle.com",
+          "description": "Norwegian affiliate/partner-marketing SaaS with an open cross-advertiser Partner Marketplace and centralized publisher payouts. CPS on tracked transactions, amount negotiated per partner. EUR50 min, weekly cycle. UNIQUE SELLING POINT: 'Networks & Media Buyers' is one of eight explicitly named accepted partner categories, and the partner terms contain NO blanket ban on paid media, media buying or popunders (only fraud/bot traffic, spam email, trademark brand bidding).",
+          "type": "Advertiser-SaaS + open partner marketplace",
+          "geo": "Nordics HQ, EU/UK oriented; no evidence of US/PL/ES depth",
+          "priority_inventory": "NO — closer to a negative finding. Marketplace page positions Target Circle as the OPPOSITE of an aggregator: advertisers connect directly.",
+          "caveats": "Wrong model for the priority-inventory goal — advertiser-SaaS subscription means the pool is whoever bought a subscription, so offer depth likely shallow and skewed to small/mid Nordic-EU merchants. STALE PUBLIC PRESENCE — newest blog 22 Dec 2020, whitepapers titled 'Top 2020...'. No AffPaying profile, Trustpilot 403 — no independent payment reputation.",
+          "source": "targetcircle.com (home/for-publishers/features-marketplace/legal marketplace-partner-terms)",
+          "assigned_to": "Spirion"
+        },
+        {
+          "name": "Addrevenue (Addrevenue AB)",
+          "website": "https://addrevenue.io/en/",
+          "description": "Independent standalone Swedish affiliate network with open publisher side — own advertiser relationships, own tracking, own API (Strackr already integrates it). CPS rev-share plus fixed CPA per conversion. CLEANEST PAYMENT MECHANICS IN THE BATCH: previous month's transactions compiled on the 1st, PAID ON THE 25th, EUR50 min.",
+          "type": "Direct network",
+          "geo": "Sweden / Nordics-centred; claims 25-38 markets incl. DE/FR/ES/UK/US but SE/NO/DK is the bulk",
+          "priority_inventory": "UNVERIFIED — evidence points the other way. Nothing in addrevenue.io, its API docs, or Strackr's integration doc indicates aggregation of or a data partnership with the priority networks.",
+          "caveats": "Not the target model — direct network, no aggregation. Small and young: launched Mar 2022, ~3,000 affiliates, API still beta, thin supply depth. Claimed 25-38 markets are aspirational, not evidenced by name.",
+          "source": "addrevenue.io + API docs + Strackr integration doc + Trustpilot SE/UK/AU property pages",
+          "assigned_to": "Spread"
+        },
+        {
+          "name": "AffiliatePort (operated by 5DM.cz)",
+          "website": "https://affiliateport.eu/",
+          "description": "Central/Eastern European direct affiliate network on the Scaleo platform (TUNE referenced for fraud detection). Self-described as one of the largest CPS networks in Czechia + Slovakia; secondary Poland, Romania, Hungary. Premium named local brands: Alza, Notino, Bonami, Kasa, AliExpress, Zalando, Samsung, Lenovo, Intimissimi. Live publisher API already consumed by Strackr and LinkMyDeals.",
+          "type": "Direct network",
+          "geo": "CZ/SK core + PL/RO/HU; NO US/UK/DE/ES supply",
+          "priority_inventory": "UNVERIFIED and structurally unlikely — every identifiable advertiser is consistent with direct CZ/SK/CEE contracts.",
+          "caveats": "DOMAIN CORRECTION: affiliateport.com is DEAD (ECONNREFUSED across four attempts); live property is affiliateport.eu. Mediocre automated trust signals: guard.report 52/100, GridinSoft flags placeholder content / unfinished features. Minimum payout, schedule and NET terms all UNVERIFIED.",
+          "source": "affiliateport.eu + registration.affiliateport.eu + Strackr/LinkMyDeals integration docs + guard.report",
+          "assigned_to": "Galatea"
+        }
+      ],
+      "universal_blocker": "NOT ONE of the ten survivors publishes a verifiable pop/popunder policy. Nine publish no traffic-source policy at all; where terms were readable they are silent on pops rather than permissive (ad4mat and Adnamics both ban 'manipulation by technical devices', which a strict reviewer could aim at forced-view traffic). RevGlue is the sharpest risk: its supply is Awin-sourced, so Awin advertisers' own pop/adware bans sit upstream with RevGlue exposed in the middle, on a GBP100-minimum 30-day-hold account. EVERY application must lead with a written pop/popunder question, and the 3 aggregators must be asked for their actual upstream network list.",
+      "rejected": [
+        "Linkwise — real but Greece/SE-Europe only, no US/UK/DE/PL/ES depth (also: real domain is linkwi.se, not linkwise.io)",
+        "Affiliates.One (VibrantAds) — Taiwan/Greater-China only, zero Western advertisers, site 403s all automated fetches",
+        "Rentracks — Japan flagship self-describes as a CLOSED ASP for vetted super-affiliates; the claim that made it interesting is false",
+        "DUOMAI — claimed Awin-sourced inventory did NOT survive verification; China-HQ, thin reputation base (4 generically-worded AffPaying reviews)",
+        "Involve Asia — SEA-only (PH 34%/MY 14%/TH 9%), zero priority inventory, marketplace-dominant catalog (Shopee/Lazada/TikTok Shop) = low-rate, pop-hostile inventory class",
+        "ACCESSTRADE (Interspace) — first-party local network model, Japan+SEA only, zero Western supply"
+      ],
+      "method_caveat": "Every verification pass exhausted its WebSearch quota, so the ten rest on direct page fetches, registry lookups and AffPaying/DuckDuckGo scraping rather than a full adverse-reputation sweep. No Howl-class scandal surfaced for any candidate, but for Adnamics (zero reviews either direction), AffiliatePort (zero publisher testimony), Targetcircle (no AffPaying profile, Trustpilot 403) and RevGlue (Trustpilot 403) that is absence of evidence, not a clean bill of health. Apply the Howl lesson — validate a first payout on each before scaling.",
+      "strategic_note": "This round proves the productive angle going forward. Net-new OPEN retail networks in US/UK/DE/ES are exhausted (rounds 3-6 confirmed). But SUB-AFFILIATE AGGREGATORS carrying Awin/TradeDoubler/FlexOffers inventory are a fresh and much larger vein — 3 found in one round after 4 rounds of near-misses. Future runs should lead with this model."
+    },
     {
       "date": "2026-07-06",
       "run": "Multi-agent deep recon (round 5, fresh angles)",
