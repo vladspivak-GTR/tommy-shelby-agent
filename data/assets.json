@@ -214,7 +214,7 @@
     "items": [
       { "name": "retailAds", "assigned_to": "Spirion", "surfaced": "2026-06-21" },
       { "name": "Paid on Results", "assigned_to": "Galatea", "surfaced": "2026-06-21" },
-      { "name": "Effiliation", "assigned_to": "Innovate", "surfaced": "2026-06-21" },
+      { "name": "Effinity (formerly Effiliation)", "assigned_to": "Innovate", "surfaced": "2026-06-21", "aka": ["Effiliation", "Effinity.Partners", "Effinity Group"], "website": "https://www.effinity.fr/en/expertise/affiliation/publishers/", "note": "REBRANDED: Effiliation -> Effinity (Kochava lists as 'Effiliation (rebranded to Effinity.Partners)'). Europe's first affiliate platform, running since 2000. 600+ advertisers incl. Rakuten, Boulanger, Orange, Maisons du monde. GEO: FR/BE/CH core, EXPANDING TO SPAIN + ITALY (relevant — ES came back empty in rounds 4-6). CAVEAT: payments every 45 days at month end — slow cashflow, ask AM for better volume terms. Join the open network, NOT the Effinity SaaS tracking product. Do NOT confuse with 'Affiliati Network' (unrelated, poorly reviewed) or with 'Affilae' (different French company, already Done in Innovate)." },
       { "name": "NetSalesMedia", "assigned_to": "Spread", "surfaced": "2026-06-29" },
       { "name": "Convertiser", "assigned_to": "Spirion", "surfaced": "2026-06-29" },
       { "name": "The Affiliate Gateway", "assigned_to": "Galatea", "surfaced": "2026-06-29" },
