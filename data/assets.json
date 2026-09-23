@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T00:00:00.000Z",
+  "generated_at": "2026-09-23T12:00:00.000Z",
   "source": "Authoritative roster supplied by operator (Vlad) 2026-07-13. Replaces all prior roster data.",
   "companies_order": [
     "Spirion",
@@ -913,6 +913,46 @@
         "type": "direct network",
         "note": "domain is affiliateport.eu — the .com is DEAD; CZ/SK/PL retail (Alza, Notino, Bonami, Zalando)",
         "status_2026_09_23": "SIGNED — in roster under Innovate, Galatea"
+      },
+      {
+        "name": "LinkBest",
+        "assigned_to": "Galatea",
+        "surfaced": "2026-09-23",
+        "website": "https://www.linkbest.com",
+        "signup": "https://publisher.linkbest.com/",
+        "type": "Chinese-run CPS sub-affiliate aggregator (LinkBux/Rewardoo/LinkHaitao class); claims 500+ integrated networks, 6K+ brands",
+        "note": "Payout reputation unverified. Filter out China-domestic/creator programs. May share operator/platform with Clixyes (Clixyes code contains linkbest labels) — kept in different companies. Paid-traffic policy not published — ask publisher@linkbest.com.",
+        "instructed": "Ergys to start registering 2026-09-24"
+      },
+      {
+        "name": "Clixyes",
+        "assigned_to": "Innovate",
+        "surfaced": "2026-09-23",
+        "website": "https://www.clixyes.com/",
+        "signup": "https://publishers.clixyes.com/register",
+        "type": "Chinese-origin sub-affiliate aggregator reselling US/EU retail programs, with a separate influencer side",
+        "note": "Legal entity undisclosed; payout reputation unverified; homepage leans influencer. Possible shared operator with LinkBest — do not double up on the same brands. Paid-traffic policy not published.",
+        "instructed": "Ergys to start registering 2026-09-24"
+      },
+      {
+        "name": "Linkwise",
+        "assigned_to": "Spread",
+        "surfaced": "2026-09-23",
+        "website": "https://linkwi.se",
+        "signup": "https://affiliate.linkwi.se/en/signup.html",
+        "type": "Regional direct-advertiser network — Greece's largest performance network (since 2008, 500+ advertisers)",
+        "note": "Greek-language inventory, geo add-on only. www subdomain had expired SSL. Payment reputation unchecked. Explicitly lists \"PPC and retargeting\" affiliates as supported; bans adware/forced redirects/cookie stuffing. Was geo-rejected by Tommy on 2026-07-13 (US/UK focus then).",
+        "instructed": "Ergys to start registering 2026-09-24"
+      },
+      {
+        "name": "Involve Asia",
+        "assigned_to": "Spirion",
+        "surfaced": "2026-09-23",
+        "website": "https://involve.asia",
+        "signup": "https://involve.asia/partners/overview/",
+        "type": "Open SEA affiliate network, ecommerce-led (500+ advertisers)",
+        "note": "Non-Western geo; low marketplace CPS rates (1.4-2.45%); long cash cycle; signup leans social publishers; terms page 404 so paid-traffic stance unknown. Was geo-rejected by Tommy on 2026-07-13.",
+        "instructed": "Ergys to start registering 2026-09-24"
       }
     ],
     "universal_blocker_2026_07_13": "NONE of these 7 publishes a pop/popunder policy. Every application must lead with a written question on pop acceptance, and the 3 aggregators must be asked for their upstream network list (specifically whether Awin/TradeDoubler/FlexOffers advertisers are in the feed). Verify one full payout before scaling."

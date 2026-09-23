@@ -1,9 +1,111 @@
 {
-  "generated_at": "2026-07-13T12:00:00.000Z",
-  "last_run": "2026-07-13T12:00:00.000Z",
+  "generated_at": "2026-09-23T12:00:00.000Z",
+  "last_run": "2026-09-23T12:00:00.000Z",
   "next_run": "2026-07-20T07:00:00.000Z",
-  "total_discoveries": 52,
+  "total_discoveries": 56,
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "Round 8 — roster-style networks, CPS/CPA offers ONLY",
+      "cadence": "manual-deep-research",
+      "summary": "Vlad supplied 4 name lists (224 lines) — deduped to 115 unique networks (Innovate 58 / Spread 48 / Spirion 53 / Galatea 37). Hard rule this round: offers must be CPS/CPA; any network with a mostly CPC/CPL/CPI/pay-per-call catalog rejected. Style target: the roster itself (LinkBux/Rewardoo/BonusArrive/LinkHaitao-class CPS aggregators + Awin/TradeDoubler/FlexOffers-class retail networks). 89 subagents, 6.37M tokens: 116 raw -> 70 unique -> 70 verified -> 17 CPS/CPA-majority -> 8 shortlisted (4 tier A, 4 tier B). Wave 2 not needed. Vlad approved 4.",
+      "model": "claude-opus-5-5 + general-purpose workflow subagents",
+      "affiliate_networks": [
+        {
+          "name": "LinkBest",
+          "assigned_to": "Galatea",
+          "website": "https://www.linkbest.com",
+          "signup": "https://publisher.linkbest.com/",
+          "type": "Chinese-run CPS sub-affiliate aggregator (LinkBux/Rewardoo/LinkHaitao class); claims 500+ integrated networks, 6K+ brands",
+          "offers": "CPS only as far as verifiable — publisher API returns only order amount/commission/SKU; advertised avg commission 8%",
+          "brands": "Sephora FR, Mister Spex, Tory Burch, LEGO UK, Swarovski, New Balance US, CASETiFY, SHEIN",
+          "geo": "34 markets; Western brands US/UK/FR/DE/CA/AU + some China-domestic",
+          "payment": "Twice monthly (15th + month end), USD or CNY; min payout/NET/methods not public",
+          "caveats": "Payout reputation unverified. Filter out China-domestic/creator programs. May share operator/platform with Clixyes (Clixyes code contains linkbest labels) — kept in different companies. Paid-traffic policy not published — ask publisher@linkbest.com."
+        },
+        {
+          "name": "Clixyes",
+          "assigned_to": "Innovate",
+          "website": "https://www.clixyes.com/",
+          "signup": "https://publishers.clixyes.com/register",
+          "type": "Chinese-origin sub-affiliate aggregator reselling US/EU retail programs, with a separate influencer side",
+          "offers": "Majority CPS (portal built on commission rate / locking period / settlement); some CPA incentives; no CPC/CPL/CPI seen",
+          "brands": "Coach Outlet, Ulta Beauty, Chewy, Crate & Barrel, Swarovski, New Balance, Flaconi, Weekday, The Children's Place",
+          "geo": "Global, mostly US + EU (DE)",
+          "payment": "$50 min withdrawal after lock/approval; PayPal (fee) or bank; NET not published",
+          "caveats": "Legal entity undisclosed; payout reputation unverified; homepage leans influencer. Possible shared operator with LinkBest — do not double up on the same brands. Paid-traffic policy not published."
+        },
+        {
+          "name": "Linkwise",
+          "assigned_to": "Spread",
+          "website": "https://linkwi.se",
+          "signup": "https://affiliate.linkwi.se/en/signup.html",
+          "type": "Regional direct-advertiser network — Greece's largest performance network (since 2008, 500+ advertisers)",
+          "offers": "Majority CPS (\"pay for results, not clicks or impressions\"; commission = order or predefined action); small lead slice",
+          "brands": "AB Vassilopoulos, Kotsovolos, Aegean Airlines, Notos, Attica, Public, La Redoute GR",
+          "geo": "Greece (claims SE Europe); little Western supply. NOTE: real domain is linkwi.se, not linkwise.io",
+          "payment": "EUR20 min; monthly on the 15th after advertiser pays Linkwise (~45-75 days); tax ID required",
+          "caveats": "Greek-language inventory, geo add-on only. www subdomain had expired SSL. Payment reputation unchecked. Explicitly lists \"PPC and retargeting\" affiliates as supported; bans adware/forced redirects/cookie stuffing. Was geo-rejected by Tommy on 2026-07-13 (US/UK focus then)."
+        },
+        {
+          "name": "Involve Asia",
+          "assigned_to": "Spirion",
+          "website": "https://involve.asia",
+          "signup": "https://involve.asia/partners/overview/",
+          "type": "Open SEA affiliate network, ecommerce-led (500+ advertisers)",
+          "offers": "Public offers sample: 8 CPS + 3 fixed CPA; no CPL/CPI seen",
+          "brands": "Shopee, Lazada, Tokopedia, Zalora, IKEA, Watsons, Sephora, Tiqets, Kaspersky, Udemy",
+          "geo": "Southeast Asia (MY/SG/ID/PH/TH/VN) + a few global offers",
+          "payment": "~35 days validation + ~40 days advertiser payment (~75+ days total); paid within 10 working days of withdrawal",
+          "caveats": "Non-Western geo; low marketplace CPS rates (1.4-2.45%); long cash cycle; signup leans social publishers; terms page 404 so paid-traffic stance unknown. Was geo-rejected by Tommy on 2026-07-13."
+        }
+      ],
+      "shortlisted_not_approved": [
+        "Brandsparkhub — CPS aggregator on the Partnermatic/CollabGlow codebase (likely sister brand; all 4 companies already run both, so heavy inventory overlap expected)",
+        "Travelpayouts — pure CPS/CPA travel network, Trustpilot 4.4/5 (251 reviews), media buying allowed per program; travel-only",
+        "eHUB (ehub.cz) — CZ/SK retail CPS (~85-90% PPS); code allows paid traffic landing on own site first",
+        "Profitshare (RO/BG) — all-CPS eMAG ecosystem network; explicitly BANS pop-ups/pop-unders; same market as 2Performant"
+      ],
+      "rejected_instructive": [
+        "Duomai (多麦) — publisher ToS limits to PRC citizens/PRC-registered businesses; requires Chinese VAT invoice",
+        "TimeOne / Public-Idees — fails the offer-type rule: lead-gen (CPL, co-registration) weighted equal/greater than ecommerce sales",
+        "Adrecord / NetAffiliation / adgoal / Salestring — merged into networks already in use (Adtraction, Kwanko, Takeads, Daisycon)",
+        "ArabClicks — mixed CPA/CPI/CPC/CPL, coupon-led, AffPaying payout 2.75/5 with non-payment report",
+        "INRDeals — mixed CPS/CPI/CPC/CPL + consumer cashback site; Trustpilot 2.1/5 with 6-month unpaid reports",
+        "ACCESSTRADE — uses \"CPA\" as catch-all for CPS/CPL/CPQL/CPI; large finance-lead catalog",
+        "DCMnetwork — MENA coupon-heavy, Net-80 + 45-day validation, AffPaying report of cancelled approved commissions",
+        "LinkPrice — Korean-only storefronts, repositioning as influencer platform"
+      ],
+      "roster_hygiene_2026_09_23": {
+        "signed_since_last_rounds": [
+          "ad4mat",
+          "Adpump",
+          "RevGlue",
+          "Targetcircle",
+          "Adnamics",
+          "Addrevenue",
+          "AffiliatePort",
+          "Effinity",
+          "MCANISM"
+        ],
+        "approved_but_never_signed": [
+          "retailAds",
+          "Paid on Results",
+          "NetSalesMedia",
+          "Convertiser",
+          "The Affiliate Gateway",
+          "Performers",
+          "INIS",
+          "LeadStar",
+          "ADCocktail",
+          "ShopMy",
+          "Madrivo",
+          "Adservice",
+          "GiddyUp"
+        ],
+        "oddity": "Adexium appears in Galatea's affiliate-network list but is a traffic source (in our TS list)"
+      }
+    },
     {
       "date": "2026-07-13",
       "run": "Round 7 — sub-affiliate aggregators carrying Awin/TradeDoubler/FlexOffers inventory",
