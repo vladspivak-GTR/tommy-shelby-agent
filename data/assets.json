@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-07-13T00:00:00.000Z",
+  "generated_at": "2026-09-23T00:00:00.000Z",
   "source": "Authoritative roster supplied by operator (Vlad) 2026-07-13. Replaces all prior roster data.",
-  "companies_order": ["Spirion", "Innovate", "Spread", "Galatea", "Impulsprom", "Omnia"],
+  "companies_order": [
+    "Spirion",
+    "Innovate",
+    "Spread",
+    "Galatea",
+    "Impulsprom",
+    "Omnia"
+  ],
   "companies_legal_names": {
     "Innovate": "INNOVATE ADS LTD",
     "Spread": "SPREAD MARKETING LTD",
@@ -32,179 +39,718 @@
   },
   "affiliate_networks": {
     "Innovate": [
-      { "name": "BonusArrive", "status": "Done" },
-      { "name": "noctemque", "status": "Done" },
-      { "name": "FlexOffers", "status": "Done" },
-      { "name": "Takeads", "status": "Done" },
-      { "name": "Oponia", "status": "Done" },
-      { "name": "LinkBux", "status": "Done" },
-      { "name": "RewardAny", "status": "Done", "note": "not using" },
-      { "name": "LinkHaitao", "status": "Done" },
-      { "name": "Rewardoo", "status": "Done" },
-      { "name": "Admitad + TakeDeals + ConvertSocial", "status": "Done" },
-      { "name": "Webe / WebePartners", "status": "Done" },
-      { "name": "Partnermatic", "status": "Done", "note": "2 accounts: regular + Crystal" },
-      { "name": "Refersion", "status": "Done", "note": "cannot login" },
-      { "name": "MoonRover", "status": "Done" },
-      { "name": "Eclicklink", "status": "Done", "note": "incl. new system" },
-      { "name": "Goaffpro", "status": "Done" },
-      { "name": "Cuelinks", "status": "Done" },
-      { "name": "Transact Media", "status": "Done" },
-      { "name": "Affluxo", "status": "Done" },
-      { "name": "BlueAff", "status": "Done" },
-      { "name": "Rakuten", "status": "Done" },
-      { "name": "Dognet", "status": "Done" },
-      { "name": "2Performative (Business League)", "status": "Done" },
-      { "name": "Kwanko", "status": "Done" },
-      { "name": "Partnerize", "status": "Done" },
-      { "name": "QUK", "status": "Done" },
-      { "name": "TradeTracker", "status": "Done" },
-      { "name": "AdCombo", "status": "Skipped", "note": "igaming only" },
-      { "name": "Affilae", "status": "Done" },
-      { "name": "Encoreaff", "status": "Done" },
-      { "name": "Linkprefer", "status": "In progress" },
-      { "name": "CrackRevenue", "status": "Skipped", "note": "David said to skip" },
-      { "name": "Mcansim (MCANISM)", "status": "In progress" },
-      { "name": "Flow", "status": "Skipped", "note": "not relevant" },
-      { "name": "ChineseAN", "status": "In progress" },
-      { "name": "AdsDoubler", "status": "In progress" },
-      { "name": "Glopss", "status": "Not Approved" },
-      { "name": "BrandCycle", "status": "Not Approved" },
-      { "name": "Belboon", "status": "Not Approved" },
-      { "name": "Yieldkit", "status": "Not Approved" },
-      { "name": "Bol", "status": "Not Approved" },
-      { "name": "Skimlinks", "status": "Not Approved" },
-      { "name": "Adtraction", "status": "Not Approved" },
-      { "name": "YK", "status": "Suspended" },
-      { "name": "TradeDoubler", "status": "Suspended" },
-      { "name": "CJ", "status": "Suspended" },
-      { "name": "Awin", "status": "Stuck", "note": "4 duplicate entries, all passwords failing" },
-      { "name": "BrandReward", "status": "Stuck", "note": "1 stuck / 1 done - in use" },
-      { "name": "Salegains", "status": "No status" }
+      {
+        "name": "BonusArrive",
+        "status": "Done"
+      },
+      {
+        "name": "noctemque",
+        "status": "Done"
+      },
+      {
+        "name": "FlexOffers",
+        "status": "Done"
+      },
+      {
+        "name": "Takeads",
+        "status": "Done"
+      },
+      {
+        "name": "Oponia",
+        "status": "Done"
+      },
+      {
+        "name": "LinkBux",
+        "status": "Done"
+      },
+      {
+        "name": "RewardAny",
+        "status": "Done",
+        "note": "not using"
+      },
+      {
+        "name": "LinkHaitao",
+        "status": "Done"
+      },
+      {
+        "name": "Rewardoo",
+        "status": "Done"
+      },
+      {
+        "name": "Admitad + TakeDeals + ConvertSocial",
+        "status": "Done"
+      },
+      {
+        "name": "Webe / WebePartners",
+        "status": "Done"
+      },
+      {
+        "name": "Partnermatic",
+        "status": "Done",
+        "note": "2 accounts: regular + Crystal"
+      },
+      {
+        "name": "Refersion",
+        "status": "Done",
+        "note": "cannot login"
+      },
+      {
+        "name": "MoonRover",
+        "status": "Done"
+      },
+      {
+        "name": "Eclicklink",
+        "status": "Done",
+        "note": "incl. new system"
+      },
+      {
+        "name": "Goaffpro",
+        "status": "Done"
+      },
+      {
+        "name": "Cuelinks",
+        "status": "Done"
+      },
+      {
+        "name": "Transact Media",
+        "status": "Done"
+      },
+      {
+        "name": "Affluxo",
+        "status": "Done"
+      },
+      {
+        "name": "BlueAff",
+        "status": "Done"
+      },
+      {
+        "name": "Rakuten",
+        "status": "Done"
+      },
+      {
+        "name": "Dognet",
+        "status": "Done"
+      },
+      {
+        "name": "2Performative (Business League)",
+        "status": "Done"
+      },
+      {
+        "name": "Kwanko",
+        "status": "Done"
+      },
+      {
+        "name": "Partnerize",
+        "status": "Done"
+      },
+      {
+        "name": "QUK",
+        "status": "Done"
+      },
+      {
+        "name": "TradeTracker",
+        "status": "Done"
+      },
+      {
+        "name": "AdCombo",
+        "status": "Skipped",
+        "note": "igaming only"
+      },
+      {
+        "name": "Affilae",
+        "status": "Done"
+      },
+      {
+        "name": "Encoreaff",
+        "status": "Done"
+      },
+      {
+        "name": "Linkprefer",
+        "status": "In progress"
+      },
+      {
+        "name": "CrackRevenue",
+        "status": "Skipped",
+        "note": "David said to skip"
+      },
+      {
+        "name": "Mcansim (MCANISM)",
+        "status": "In progress"
+      },
+      {
+        "name": "Flow",
+        "status": "Skipped",
+        "note": "not relevant"
+      },
+      {
+        "name": "ChineseAN",
+        "status": "In progress"
+      },
+      {
+        "name": "AdsDoubler",
+        "status": "In progress"
+      },
+      {
+        "name": "Glopss",
+        "status": "Not Approved"
+      },
+      {
+        "name": "BrandCycle",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Belboon",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Yieldkit",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Bol",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Skimlinks",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Adtraction",
+        "status": "Not Approved"
+      },
+      {
+        "name": "YK",
+        "status": "Suspended"
+      },
+      {
+        "name": "TradeDoubler",
+        "status": "Suspended"
+      },
+      {
+        "name": "CJ",
+        "status": "Suspended"
+      },
+      {
+        "name": "Awin",
+        "status": "Stuck",
+        "note": "4 duplicate entries, all passwords failing"
+      },
+      {
+        "name": "BrandReward",
+        "status": "Stuck",
+        "note": "1 stuck / 1 done - in use"
+      },
+      {
+        "name": "Salegains",
+        "status": "No status"
+      }
     ],
     "Spread": [
-      { "name": "LinkBux", "status": "Done", "note": "2 accounts" },
-      { "name": "noctemque", "status": "Done" },
-      { "name": "BrandReward", "status": "Done" },
-      { "name": "BonusArrive", "status": "Done" },
-      { "name": "Rewardoo", "status": "Done" },
-      { "name": "Webgains", "status": "Done", "note": "not using" },
-      { "name": "Oponia", "status": "Done", "note": "not using" },
-      { "name": "ShareASale", "status": "Done", "note": "not using" },
-      { "name": "FlexOffers", "status": "Done" },
-      { "name": "Takeads", "status": "Done" },
-      { "name": "LinkHaitao", "status": "Done" },
-      { "name": "RewardAny", "status": "Done", "note": "main acc in use; 2nd acc in progress" },
-      { "name": "TradeTracker", "status": "Done" },
-      { "name": "CollabGlow", "status": "Done", "note": "2 accounts" },
-      { "name": "Partnermatic", "status": "Done" },
-      { "name": "Impact", "status": "Done" },
-      { "name": "Webe Partners", "status": "Done" },
-      { "name": "LinkApprove", "status": "Done" },
-      { "name": "Eclicklink", "status": "Done" },
-      { "name": "Transact Media", "status": "Done" },
-      { "name": "Cuelinks", "status": "Done" },
-      { "name": "BlueAff", "status": "Done" },
-      { "name": "Vison Star", "status": "Done" },
-      { "name": "Partnerize", "status": "Done" },
-      { "name": "Lomadee", "status": "Done" },
-      { "name": "PickaLink", "status": "Done" },
-      { "name": "ConvertSocial", "status": "Done" },
-      { "name": "Encore", "status": "Done" },
-      { "name": "Rakuten", "status": "Done" },
-      { "name": "LinkConnector", "status": "In progress" },
-      { "name": "Mobidea", "status": "Skipped", "note": "David asked to skip" },
-      { "name": "Affiliati", "status": "In progress" },
-      { "name": "Sovrn", "status": "Not Approved" },
-      { "name": "SkimLinks", "status": "Not Approved" },
-      { "name": "MediaForce", "status": "Not Approved" },
-      { "name": "BrandCycle", "status": "Not Approved" },
-      { "name": "Daisycon", "status": "Not Approved" },
-      { "name": "PartnerStack", "status": "Not Approved" },
-      { "name": "PerformCB", "status": "Not Approved" },
-      { "name": "TradeDoubler", "status": "Suspended" },
-      { "name": "Awin", "status": "Suspended", "note": "4 duplicate entries, all suspended" },
-      { "name": "CJ", "status": "Suspended", "note": "marked Using despite suspension" },
-      { "name": "Yieldkit", "status": "Conflicting", "note": "1 acc suspended / 1 acc not approved" }
+      {
+        "name": "LinkBux",
+        "status": "Done",
+        "note": "2 accounts"
+      },
+      {
+        "name": "noctemque",
+        "status": "Done"
+      },
+      {
+        "name": "BrandReward",
+        "status": "Done"
+      },
+      {
+        "name": "BonusArrive",
+        "status": "Done"
+      },
+      {
+        "name": "Rewardoo",
+        "status": "Done"
+      },
+      {
+        "name": "Webgains",
+        "status": "Done",
+        "note": "not using"
+      },
+      {
+        "name": "Oponia",
+        "status": "Done",
+        "note": "not using"
+      },
+      {
+        "name": "ShareASale",
+        "status": "Done",
+        "note": "not using"
+      },
+      {
+        "name": "FlexOffers",
+        "status": "Done"
+      },
+      {
+        "name": "Takeads",
+        "status": "Done"
+      },
+      {
+        "name": "LinkHaitao",
+        "status": "Done"
+      },
+      {
+        "name": "RewardAny",
+        "status": "Done",
+        "note": "main acc in use; 2nd acc in progress"
+      },
+      {
+        "name": "TradeTracker",
+        "status": "Done"
+      },
+      {
+        "name": "CollabGlow",
+        "status": "Done",
+        "note": "2 accounts"
+      },
+      {
+        "name": "Partnermatic",
+        "status": "Done"
+      },
+      {
+        "name": "Impact",
+        "status": "Done"
+      },
+      {
+        "name": "Webe Partners",
+        "status": "Done"
+      },
+      {
+        "name": "LinkApprove",
+        "status": "Done"
+      },
+      {
+        "name": "Eclicklink",
+        "status": "Done"
+      },
+      {
+        "name": "Transact Media",
+        "status": "Done"
+      },
+      {
+        "name": "Cuelinks",
+        "status": "Done"
+      },
+      {
+        "name": "BlueAff",
+        "status": "Done"
+      },
+      {
+        "name": "Vison Star",
+        "status": "Done"
+      },
+      {
+        "name": "Partnerize",
+        "status": "Done"
+      },
+      {
+        "name": "Lomadee",
+        "status": "Done"
+      },
+      {
+        "name": "PickaLink",
+        "status": "Done"
+      },
+      {
+        "name": "ConvertSocial",
+        "status": "Done"
+      },
+      {
+        "name": "Encore",
+        "status": "Done"
+      },
+      {
+        "name": "Rakuten",
+        "status": "Done"
+      },
+      {
+        "name": "LinkConnector",
+        "status": "In progress"
+      },
+      {
+        "name": "Mobidea",
+        "status": "Skipped",
+        "note": "David asked to skip"
+      },
+      {
+        "name": "Affiliati",
+        "status": "In progress"
+      },
+      {
+        "name": "Sovrn",
+        "status": "Not Approved"
+      },
+      {
+        "name": "SkimLinks",
+        "status": "Not Approved"
+      },
+      {
+        "name": "MediaForce",
+        "status": "Not Approved"
+      },
+      {
+        "name": "BrandCycle",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Daisycon",
+        "status": "Not Approved"
+      },
+      {
+        "name": "PartnerStack",
+        "status": "Not Approved"
+      },
+      {
+        "name": "PerformCB",
+        "status": "Not Approved"
+      },
+      {
+        "name": "TradeDoubler",
+        "status": "Suspended"
+      },
+      {
+        "name": "Awin",
+        "status": "Suspended",
+        "note": "4 duplicate entries, all suspended"
+      },
+      {
+        "name": "CJ",
+        "status": "Suspended",
+        "note": "marked Using despite suspension"
+      },
+      {
+        "name": "Yieldkit",
+        "status": "Conflicting",
+        "note": "1 acc suspended / 1 acc not approved"
+      }
     ],
     "Spirion": [
-      { "name": "LinkBux", "status": "Done", "note": "2 accounts: regular + Crystal; tbs approved" },
-      { "name": "Rewardoo", "status": "Done", "note": "tbs approved" },
-      { "name": "Yieldkit", "status": "Done" },
-      { "name": "BrandReward", "status": "Done", "note": "tbs approved" },
-      { "name": "FlexOffers", "status": "Done" },
-      { "name": "Noctemque", "status": "Done", "note": "tbs approved" },
-      { "name": "LinkHaitao", "status": "Done", "note": "tbs approved" },
-      { "name": "Admitad + TakeAds", "status": "Done" },
-      { "name": "BonusArrive", "status": "Done", "note": "tbs approved" },
-      { "name": "TradeDoubler", "status": "Done", "note": "2 accounts, one marked don't use" },
-      { "name": "CityAds", "status": "Done" },
-      { "name": "Partnermatic", "status": "Done", "note": "2 accounts: regular + Crystal; tbs approved" },
-      { "name": "Webe Partners", "status": "Done", "note": "tbs approved" },
-      { "name": "CircleWise", "status": "Done" },
-      { "name": "Eclicklink", "status": "Done" },
-      { "name": "Transact Media", "status": "Done" },
-      { "name": "Cuelinks", "status": "Done" },
-      { "name": "VCommission", "status": "Done" },
-      { "name": "BlueAff", "status": "Done" },
-      { "name": "AdsDoubler", "status": "Done" },
-      { "name": "Partnerize", "status": "Done" },
-      { "name": "Partnerboost", "status": "Done" },
-      { "name": "Optimize Media", "status": "Done" },
-      { "name": "A8", "status": "In progress" },
-      { "name": "JoinGekko", "status": "In progress" },
-      { "name": "Avantlink", "status": "In progress" },
-      { "name": "Socios (Soicos)", "status": "In progress" },
-      { "name": "Tracdelight", "status": "In progress" },
-      { "name": "FinanceAds", "status": "In progress", "note": "email sent" },
-      { "name": "MaxWeb", "status": "In progress" },
-      { "name": "Salegains", "status": "In progress" },
-      { "name": "Adcell", "status": "In progress" },
-      { "name": "TradeTracker", "status": "Not Approved" },
-      { "name": "Webgains", "status": "Not Approved" },
-      { "name": "Propelbon", "status": "Not Approved" },
-      { "name": "Adtraction", "status": "Not Approved", "note": "application sent" },
-      { "name": "Kwanko", "status": "Not Approved" },
-      { "name": "Daisycon", "status": "Not Approved" },
-      { "name": "ClickDealer", "status": "Skipped", "note": "we skip this one" },
-      { "name": "PerformCB", "status": "Not Approved", "note": "email sent" },
-      { "name": "MaxBounty", "status": "Not Approved", "note": "needs phone interview" },
-      { "name": "AWIN", "status": "Conflicting", "note": "traffic@ = Not Approved / marketing@ = In Progress" },
-      { "name": "Shoplooks", "status": "No status" }
+      {
+        "name": "LinkBux",
+        "status": "Done",
+        "note": "2 accounts: regular + Crystal; tbs approved"
+      },
+      {
+        "name": "Rewardoo",
+        "status": "Done",
+        "note": "tbs approved"
+      },
+      {
+        "name": "Yieldkit",
+        "status": "Done"
+      },
+      {
+        "name": "BrandReward",
+        "status": "Done",
+        "note": "tbs approved"
+      },
+      {
+        "name": "FlexOffers",
+        "status": "Done"
+      },
+      {
+        "name": "Noctemque",
+        "status": "Done",
+        "note": "tbs approved"
+      },
+      {
+        "name": "LinkHaitao",
+        "status": "Done",
+        "note": "tbs approved"
+      },
+      {
+        "name": "Admitad + TakeAds",
+        "status": "Done"
+      },
+      {
+        "name": "BonusArrive",
+        "status": "Done",
+        "note": "tbs approved"
+      },
+      {
+        "name": "TradeDoubler",
+        "status": "Done",
+        "note": "2 accounts, one marked don't use"
+      },
+      {
+        "name": "CityAds",
+        "status": "Done"
+      },
+      {
+        "name": "Partnermatic",
+        "status": "Done",
+        "note": "2 accounts: regular + Crystal; tbs approved"
+      },
+      {
+        "name": "Webe Partners",
+        "status": "Done",
+        "note": "tbs approved"
+      },
+      {
+        "name": "CircleWise",
+        "status": "Done"
+      },
+      {
+        "name": "Eclicklink",
+        "status": "Done"
+      },
+      {
+        "name": "Transact Media",
+        "status": "Done"
+      },
+      {
+        "name": "Cuelinks",
+        "status": "Done"
+      },
+      {
+        "name": "VCommission",
+        "status": "Done"
+      },
+      {
+        "name": "BlueAff",
+        "status": "Done"
+      },
+      {
+        "name": "AdsDoubler",
+        "status": "Done"
+      },
+      {
+        "name": "Partnerize",
+        "status": "Done"
+      },
+      {
+        "name": "Partnerboost",
+        "status": "Done"
+      },
+      {
+        "name": "Optimize Media",
+        "status": "Done"
+      },
+      {
+        "name": "A8",
+        "status": "In progress"
+      },
+      {
+        "name": "JoinGekko",
+        "status": "In progress"
+      },
+      {
+        "name": "Avantlink",
+        "status": "In progress"
+      },
+      {
+        "name": "Socios (Soicos)",
+        "status": "In progress"
+      },
+      {
+        "name": "Tracdelight",
+        "status": "In progress"
+      },
+      {
+        "name": "FinanceAds",
+        "status": "In progress",
+        "note": "email sent"
+      },
+      {
+        "name": "MaxWeb",
+        "status": "In progress"
+      },
+      {
+        "name": "Salegains",
+        "status": "In progress"
+      },
+      {
+        "name": "Adcell",
+        "status": "In progress"
+      },
+      {
+        "name": "TradeTracker",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Webgains",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Propelbon",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Adtraction",
+        "status": "Not Approved",
+        "note": "application sent"
+      },
+      {
+        "name": "Kwanko",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Daisycon",
+        "status": "Not Approved"
+      },
+      {
+        "name": "ClickDealer",
+        "status": "Skipped",
+        "note": "we skip this one"
+      },
+      {
+        "name": "PerformCB",
+        "status": "Not Approved",
+        "note": "email sent"
+      },
+      {
+        "name": "MaxBounty",
+        "status": "Not Approved",
+        "note": "needs phone interview"
+      },
+      {
+        "name": "AWIN",
+        "status": "Conflicting",
+        "note": "traffic@ = Not Approved / marketing@ = In Progress"
+      },
+      {
+        "name": "Shoplooks",
+        "status": "No status"
+      }
     ],
     "Galatea": [
-      { "name": "Awin", "status": "Done" },
-      { "name": "LinkBux", "status": "Done" },
-      { "name": "LinkHaitao", "status": "Done" },
-      { "name": "Rewardoo", "status": "Done" },
-      { "name": "Partnermatic", "status": "Done" },
-      { "name": "FlexOffers", "status": "Done" },
-      { "name": "Eclicklink", "status": "Done" },
-      { "name": "Noctemque", "status": "Done" },
-      { "name": "BonusArrive", "status": "Done" },
-      { "name": "Transact Media", "status": "Done" },
-      { "name": "Cuelinks", "status": "Done" },
-      { "name": "WebePartners", "status": "Done" },
-      { "name": "BlueAff", "status": "Done" },
-      { "name": "Yieldkit", "status": "Done" },
-      { "name": "Partnerize", "status": "Done" },
-      { "name": "SalesDoubler", "status": "Done" },
-      { "name": "BrandReward", "status": "Done" },
-      { "name": "Everflow (Hume Health)", "status": "Done" },
-      { "name": "ConvertSocial", "status": "Done" },
-      { "name": "TradeTracker", "status": "Done" },
-      { "name": "CollabGlow", "status": "Done" },
-      { "name": "YepAds", "status": "Done" },
-      { "name": "TakeAds + TakeDeals", "status": "In progress" },
-      { "name": "Belboon / Daisycon", "status": "In progress" },
-      { "name": "AliExpress", "status": "In progress" },
-      { "name": "MyLead", "status": "Skipped", "note": "David says to skip" },
-      { "name": "GuruMedia", "status": "In progress" },
-      { "name": "TradeDoubler", "status": "Not Approved", "note": "2 duplicate entries: info@ + marketing@" },
-      { "name": "Webgains", "status": "Not Approved" },
-      { "name": "PartnerStack", "status": "Not Approved" },
-      { "name": "Partner-Ads", "status": "Not Approved", "note": "account closed - not a Scandinavian company" },
-      { "name": "Ascend", "status": "Cancelled", "note": "requires PayPal account" }
+      {
+        "name": "Awin",
+        "status": "Done"
+      },
+      {
+        "name": "LinkBux",
+        "status": "Done"
+      },
+      {
+        "name": "LinkHaitao",
+        "status": "Done"
+      },
+      {
+        "name": "Rewardoo",
+        "status": "Done"
+      },
+      {
+        "name": "Partnermatic",
+        "status": "Done"
+      },
+      {
+        "name": "FlexOffers",
+        "status": "Done"
+      },
+      {
+        "name": "Eclicklink",
+        "status": "Done"
+      },
+      {
+        "name": "Noctemque",
+        "status": "Done"
+      },
+      {
+        "name": "BonusArrive",
+        "status": "Done"
+      },
+      {
+        "name": "Transact Media",
+        "status": "Done"
+      },
+      {
+        "name": "Cuelinks",
+        "status": "Done"
+      },
+      {
+        "name": "WebePartners",
+        "status": "Done"
+      },
+      {
+        "name": "BlueAff",
+        "status": "Done"
+      },
+      {
+        "name": "Yieldkit",
+        "status": "Done"
+      },
+      {
+        "name": "Partnerize",
+        "status": "Done"
+      },
+      {
+        "name": "SalesDoubler",
+        "status": "Done"
+      },
+      {
+        "name": "BrandReward",
+        "status": "Done"
+      },
+      {
+        "name": "Everflow (Hume Health)",
+        "status": "Done"
+      },
+      {
+        "name": "ConvertSocial",
+        "status": "Done"
+      },
+      {
+        "name": "TradeTracker",
+        "status": "Done"
+      },
+      {
+        "name": "CollabGlow",
+        "status": "Done"
+      },
+      {
+        "name": "YepAds",
+        "status": "Done"
+      },
+      {
+        "name": "TakeAds + TakeDeals",
+        "status": "In progress"
+      },
+      {
+        "name": "Belboon / Daisycon",
+        "status": "In progress"
+      },
+      {
+        "name": "AliExpress",
+        "status": "In progress"
+      },
+      {
+        "name": "MyLead",
+        "status": "Skipped",
+        "note": "David says to skip"
+      },
+      {
+        "name": "GuruMedia",
+        "status": "In progress"
+      },
+      {
+        "name": "TradeDoubler",
+        "status": "Not Approved",
+        "note": "2 duplicate entries: info@ + marketing@"
+      },
+      {
+        "name": "Webgains",
+        "status": "Not Approved"
+      },
+      {
+        "name": "PartnerStack",
+        "status": "Not Approved"
+      },
+      {
+        "name": "Partner-Ads",
+        "status": "Not Approved",
+        "note": "account closed - not a Scandinavian company"
+      },
+      {
+        "name": "Ascend",
+        "status": "Cancelled",
+        "note": "requires PayPal account"
+      }
     ],
     "Impulsprom": [],
     "Omnia": []
@@ -212,67 +758,573 @@
   "pending_signup_from_tommy": {
     "note": "Networks Tommy surfaced and Vlad approved in prior weeks — handed to Ergys, not yet reflected in the authoritative roster. Keep excluded from future discovery.",
     "items": [
-      { "name": "retailAds", "assigned_to": "Spirion", "surfaced": "2026-06-21" },
-      { "name": "Paid on Results", "assigned_to": "Galatea", "surfaced": "2026-06-21" },
-      { "name": "Effinity (formerly Effiliation)", "assigned_to": "Innovate", "surfaced": "2026-06-21", "aka": ["Effiliation", "Effinity.Partners", "Effinity Group"], "website": "https://www.effinity.fr/en/expertise/affiliation/publishers/", "note": "REBRANDED: Effiliation -> Effinity (Kochava lists as 'Effiliation (rebranded to Effinity.Partners)'). Europe's first affiliate platform, running since 2000. 600+ advertisers incl. Rakuten, Boulanger, Orange, Maisons du monde. GEO: FR/BE/CH core, EXPANDING TO SPAIN + ITALY (relevant — ES came back empty in rounds 4-6). CAVEAT: payments every 45 days at month end — slow cashflow, ask AM for better volume terms. Join the open network, NOT the Effinity SaaS tracking product. Do NOT confuse with 'Affiliati Network' (unrelated, poorly reviewed) or with 'Affilae' (different French company, already Done in Innovate)." },
-      { "name": "NetSalesMedia", "assigned_to": "Spread", "surfaced": "2026-06-29" },
-      { "name": "Convertiser", "assigned_to": "Spirion", "surfaced": "2026-06-29" },
-      { "name": "The Affiliate Gateway", "assigned_to": "Galatea", "surfaced": "2026-06-29" },
-      { "name": "MCANISM", "assigned_to": "Spirion", "surfaced": "2026-07-06", "roster_note": "appears in Innovate as 'Mcansim' In progress" },
-      { "name": "Performers", "assigned_to": "Spread", "surfaced": "2026-07-06" },
-      { "name": "INIS", "assigned_to": "Innovate", "surfaced": "2026-07-06" },
-      { "name": "LeadStar", "assigned_to": "Galatea", "surfaced": "2026-07-06" },
-      { "name": "ADCocktail", "assigned_to": "Innovate", "surfaced": "2026-07-06" },
-      { "name": "ShopMy", "assigned_to": "Spread", "surfaced": "2026-05-11" },
-      { "name": "Madrivo", "assigned_to": "Galatea", "surfaced": "2026-05-11" },
-      { "name": "Adservice", "assigned_to": "Spirion", "surfaced": "2026-05-11" },
-      { "name": "GiddyUp", "assigned_to": "Galatea", "surfaced": "2026-04-28" },
-      { "name": "ad4mat", "assigned_to": "Innovate", "surfaced": "2026-07-13", "type": "sub-affiliate aggregator (70+ networks)", "priority_inventory": "Awin via Zanox lineage — live 2026 feed unverified" },
-      { "name": "Adpump", "assigned_to": "Innovate", "surfaced": "2026-07-13", "type": "direct network", "note": "best Western geo breadth US/UK/DE/PL/ES; advertiser-side traffic-quality complaint Sept 2025" },
-      { "name": "RevGlue", "assigned_to": "Spirion", "surfaced": "2026-07-13", "type": "sub-affiliate aggregator", "priority_inventory": "Awin CONFIRMED — named per-store on /research", "note": "GBP100 min, 30-day hold; Awin pop bans sit upstream; site content stale since 2022" },
-      { "name": "Targetcircle", "assigned_to": "Spirion", "surfaced": "2026-07-13", "type": "advertiser-SaaS + open partner marketplace", "note": "explicitly accepts 'Networks & Media Buyers' partner category" },
-      { "name": "Adnamics", "assigned_to": "Spread", "surfaced": "2026-07-13", "type": "sub-affiliate aggregator", "priority_inventory": "Webgains CONFIRMED (Not Approved for us in 3 companies) — Awin/TD unverified", "note": "ex-Awin/TradeDoubler/Webgains DACH management; founded 2023, zero publisher reviews" },
-      { "name": "Addrevenue", "assigned_to": "Spread", "surfaced": "2026-07-13", "type": "direct network", "note": "cleanest payments: closed 1st, paid 25th; Strackr-ready API" },
-      { "name": "AffiliatePort", "assigned_to": "Galatea", "surfaced": "2026-07-13", "type": "direct network", "note": "domain is affiliateport.eu — the .com is DEAD; CZ/SK/PL retail (Alza, Notino, Bonami, Zalando)" }
+      {
+        "name": "retailAds",
+        "assigned_to": "Spirion",
+        "surfaced": "2026-06-21",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "Paid on Results",
+        "assigned_to": "Galatea",
+        "surfaced": "2026-06-21",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "Effinity (formerly Effiliation)",
+        "assigned_to": "Innovate",
+        "surfaced": "2026-06-21",
+        "aka": [
+          "Effiliation",
+          "Effinity.Partners",
+          "Effinity Group"
+        ],
+        "website": "https://www.effinity.fr/en/expertise/affiliation/publishers/",
+        "note": "REBRANDED: Effiliation -> Effinity (Kochava lists as 'Effiliation (rebranded to Effinity.Partners)'). Europe's first affiliate platform, running since 2000. 600+ advertisers incl. Rakuten, Boulanger, Orange, Maisons du monde. GEO: FR/BE/CH core, EXPANDING TO SPAIN + ITALY (relevant — ES came back empty in rounds 4-6). CAVEAT: payments every 45 days at month end — slow cashflow, ask AM for better volume terms. Join the open network, NOT the Effinity SaaS tracking product. Do NOT confuse with 'Affiliati Network' (unrelated, poorly reviewed) or with 'Affilae' (different French company, already Done in Innovate).",
+        "status_2026_09_23": "SIGNED — in roster under Spirion"
+      },
+      {
+        "name": "NetSalesMedia",
+        "assigned_to": "Spread",
+        "surfaced": "2026-06-29",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "Convertiser",
+        "assigned_to": "Spirion",
+        "surfaced": "2026-06-29",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "The Affiliate Gateway",
+        "assigned_to": "Galatea",
+        "surfaced": "2026-06-29",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "MCANISM",
+        "assigned_to": "Spirion",
+        "surfaced": "2026-07-06",
+        "roster_note": "appears in Innovate as 'Mcansim' In progress",
+        "status_2026_09_23": "SIGNED — in roster under Innovate"
+      },
+      {
+        "name": "Performers",
+        "assigned_to": "Spread",
+        "surfaced": "2026-07-06",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "INIS",
+        "assigned_to": "Innovate",
+        "surfaced": "2026-07-06",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "LeadStar",
+        "assigned_to": "Galatea",
+        "surfaced": "2026-07-06",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "ADCocktail",
+        "assigned_to": "Innovate",
+        "surfaced": "2026-07-06",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "ShopMy",
+        "assigned_to": "Spread",
+        "surfaced": "2026-05-11",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "Madrivo",
+        "assigned_to": "Galatea",
+        "surfaced": "2026-05-11",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "Adservice",
+        "assigned_to": "Spirion",
+        "surfaced": "2026-05-11",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "GiddyUp",
+        "assigned_to": "Galatea",
+        "surfaced": "2026-04-28",
+        "status_2026_09_23": "NOT in roster — never signed"
+      },
+      {
+        "name": "ad4mat",
+        "assigned_to": "Innovate",
+        "surfaced": "2026-07-13",
+        "type": "sub-affiliate aggregator (70+ networks)",
+        "priority_inventory": "Awin via Zanox lineage — live 2026 feed unverified",
+        "status_2026_09_23": "SIGNED — in roster under Innovate"
+      },
+      {
+        "name": "Adpump",
+        "assigned_to": "Innovate",
+        "surfaced": "2026-07-13",
+        "type": "direct network",
+        "note": "best Western geo breadth US/UK/DE/PL/ES; advertiser-side traffic-quality complaint Sept 2025",
+        "status_2026_09_23": "SIGNED — in roster under Innovate"
+      },
+      {
+        "name": "RevGlue",
+        "assigned_to": "Spirion",
+        "surfaced": "2026-07-13",
+        "type": "sub-affiliate aggregator",
+        "priority_inventory": "Awin CONFIRMED — named per-store on /research",
+        "note": "GBP100 min, 30-day hold; Awin pop bans sit upstream; site content stale since 2022",
+        "status_2026_09_23": "SIGNED — in roster under Spirion"
+      },
+      {
+        "name": "Targetcircle",
+        "assigned_to": "Spirion",
+        "surfaced": "2026-07-13",
+        "type": "advertiser-SaaS + open partner marketplace",
+        "note": "explicitly accepts 'Networks & Media Buyers' partner category",
+        "status_2026_09_23": "SIGNED — in roster under Spirion, Galatea"
+      },
+      {
+        "name": "Adnamics",
+        "assigned_to": "Spread",
+        "surfaced": "2026-07-13",
+        "type": "sub-affiliate aggregator",
+        "priority_inventory": "Webgains CONFIRMED (Not Approved for us in 3 companies) — Awin/TD unverified",
+        "note": "ex-Awin/TradeDoubler/Webgains DACH management; founded 2023, zero publisher reviews",
+        "status_2026_09_23": "SIGNED — in roster under Spread"
+      },
+      {
+        "name": "Addrevenue",
+        "assigned_to": "Spread",
+        "surfaced": "2026-07-13",
+        "type": "direct network",
+        "note": "cleanest payments: closed 1st, paid 25th; Strackr-ready API",
+        "status_2026_09_23": "SIGNED — in roster under Spread"
+      },
+      {
+        "name": "AffiliatePort",
+        "assigned_to": "Galatea",
+        "surfaced": "2026-07-13",
+        "type": "direct network",
+        "note": "domain is affiliateport.eu — the .com is DEAD; CZ/SK/PL retail (Alza, Notino, Bonami, Zalando)",
+        "status_2026_09_23": "SIGNED — in roster under Innovate, Galatea"
+      }
     ],
     "universal_blocker_2026_07_13": "NONE of these 7 publishes a pop/popunder policy. Every application must lead with a written question on pop acceptance, and the 3 aggregators must be asked for their upstream network list (specifically whether Awin/TradeDoubler/FlexOffers advertisers are in the feed). Verify one full payout before scaling."
   },
   "dead_or_absorbed": {
     "note": "Intel for roster hygiene — these no longer exist as independent joinable networks.",
     "items": [
-      { "name": "ShareASale", "detail": "Standalone platform closed Oct 2025; fully migrated into Awin" },
-      { "name": "Affiliate Future", "detail": "Acquired by Adtraction; phased migration began Jan 2026" },
-      { "name": "Affilinet", "detail": "Migrated into Awin" },
-      { "name": "Pepperjam", "detail": "Now Ascend by Partnerize" },
-      { "name": "Levanta", "detail": "Not a network — Amazon-influencer/creator SaaS" }
+      {
+        "name": "ShareASale",
+        "detail": "Standalone platform closed Oct 2025; fully migrated into Awin"
+      },
+      {
+        "name": "Affiliate Future",
+        "detail": "Acquired by Adtraction; phased migration began Jan 2026"
+      },
+      {
+        "name": "Affilinet",
+        "detail": "Migrated into Awin"
+      },
+      {
+        "name": "Pepperjam",
+        "detail": "Now Ascend by Partnerize"
+      },
+      {
+        "name": "Levanta",
+        "detail": "Not a network — Amazon-influencer/creator SaaS"
+      }
     ]
   },
   "high_converting_source_networks": {
     "note": "Operator converts best on advertiser offers ORIGINATING from these networks. Prioritise sub-affiliate aggregators carrying their inventory.",
-    "items": ["Awin", "TradeDoubler", "FlexOffers"]
+    "items": [
+      "Awin",
+      "TradeDoubler",
+      "FlexOffers"
+    ]
   },
   "traffic_sources": [
-    { "name": "GSM", "status": "Active" },
-    { "name": "clickadilla", "status": "Active" },
-    { "name": "adsterra", "status": "Active" },
-    { "name": "fatads", "status": "Active" },
-    { "name": "kadam", "status": "Active" },
-    { "name": "clickaine", "status": "Active" },
-    { "name": "ClickAdu", "status": "Active" },
-    { "name": "rollerads", "status": "Active" },
-    { "name": "richads", "status": "Active" },
-    { "name": "PropellerAds", "status": "Active" },
-    { "name": "hilltopads", "status": "Active" },
-    { "name": "PopCash", "status": "Active" },
-    { "name": "Galaksion", "status": "Active" },
-    { "name": "Adoperator", "status": "Active" },
-    { "name": "Adexium", "status": "Active" },
-    { "name": "adCash", "status": "Active" },
-    { "name": "ad-maven", "status": "Active" },
-    { "name": "PopAds", "status": "In progress" },
-    { "name": "PopMyAds", "status": "In progress" },
-    { "name": "TrafficShop", "status": "In progress" },
-    { "name": "EZmob", "status": "Active" },
-    { "name": "MyBid", "status": "In progress", "company": "Innovate" }
-  ]
+    {
+      "name": "GSM",
+      "status": "Active"
+    },
+    {
+      "name": "clickadilla",
+      "status": "Active"
+    },
+    {
+      "name": "adsterra",
+      "status": "Active"
+    },
+    {
+      "name": "fatads",
+      "status": "Active"
+    },
+    {
+      "name": "kadam",
+      "status": "Active"
+    },
+    {
+      "name": "clickaine",
+      "status": "Active"
+    },
+    {
+      "name": "ClickAdu",
+      "status": "Active"
+    },
+    {
+      "name": "rollerads",
+      "status": "Active"
+    },
+    {
+      "name": "richads",
+      "status": "Active"
+    },
+    {
+      "name": "PropellerAds",
+      "status": "Active"
+    },
+    {
+      "name": "hilltopads",
+      "status": "Active"
+    },
+    {
+      "name": "PopCash",
+      "status": "Active"
+    },
+    {
+      "name": "Galaksion",
+      "status": "Active"
+    },
+    {
+      "name": "Adoperator",
+      "status": "Active"
+    },
+    {
+      "name": "Adexium",
+      "status": "Active"
+    },
+    {
+      "name": "adCash",
+      "status": "Active"
+    },
+    {
+      "name": "ad-maven",
+      "status": "Active"
+    },
+    {
+      "name": "PopAds",
+      "status": "In progress"
+    },
+    {
+      "name": "PopMyAds",
+      "status": "In progress"
+    },
+    {
+      "name": "TrafficShop",
+      "status": "In progress"
+    },
+    {
+      "name": "EZmob",
+      "status": "Active"
+    },
+    {
+      "name": "MyBid",
+      "status": "In progress",
+      "company": "Innovate"
+    }
+  ],
+  "roster_2026_09_23": {
+    "source": "Operator-supplied name lists 2026-09-23 (224 lines, deduped to 115 unique networks). Names only — no statuses supplied. Account variants (Crystal / new / transferred / International) collapsed into one entry with an accounts[] note.",
+    "counts": {
+      "Innovate": 58,
+      "Spread": 48,
+      "Spirion": 53,
+      "Galatea": 37
+    },
+    "union_unique": 115,
+    "per_company": {
+      "Innovate": [
+        "BrandReward",
+        "BonusArrive",
+        "Noctemque",
+        "YK",
+        "Salegains",
+        "Awin",
+        "MGID",
+        "FlexOffers",
+        "Takeads",
+        "Oponia",
+        "TradeDoubler",
+        "RewardAny",
+        "LinkHaitao",
+        {
+          "name": "Rewardoo",
+          "accounts": [
+            "Crystal"
+          ]
+        },
+        "Admitad (+TakeDeals +ConvertSocial)",
+        "CJ",
+        "Webe Partners",
+        {
+          "name": "Partnermatic",
+          "accounts": [
+            "Crystal"
+          ]
+        },
+        "Refersion",
+        "MoonRover",
+        "Glopss",
+        "BrandCycle",
+        {
+          "name": "Eclicklink",
+          "accounts": [
+            "new system"
+          ]
+        },
+        "Goaffpro",
+        "Cuelinks",
+        "Belboon",
+        "Yieldkit",
+        "Transact Media",
+        "Affluxo",
+        "BlueAff",
+        "Rakuten",
+        "Dognet",
+        "2Performative (Business League)",
+        "Kwanko",
+        "Partnerize",
+        "QUK",
+        "Linkprefer",
+        "DigitalOcean",
+        "TradeTracker",
+        "CrakRevenue",
+        "AdCombo",
+        "MCANISM (Mcansim)",
+        "Flow",
+        "ChineseAN",
+        "Bol",
+        "Affilae",
+        "Encore (encoreaff)",
+        "AdsDoubler",
+        "Skimlinks",
+        "Adtraction",
+        "Uncensored",
+        "ad4mat",
+        "Adpump",
+        "Growth Lift",
+        "CollabGlow",
+        "AffiliatePort",
+        {
+          "name": "LinkBux",
+          "accounts": [
+            "Crystal"
+          ]
+        },
+        "Cloud Traffic"
+      ],
+      "Spread": [
+        {
+          "name": "LinkBux",
+          "accounts": [
+            "new"
+          ]
+        },
+        "Noctemque",
+        "BrandReward",
+        "BonusArrive",
+        "TradeDoubler",
+        {
+          "name": "Rewardoo",
+          "accounts": [
+            "new"
+          ]
+        },
+        "Awin",
+        {
+          "name": "Webgains",
+          "accounts": [
+            "new"
+          ]
+        },
+        "Yieldkit",
+        "Oponia",
+        "ShareASale",
+        "FlexOffers",
+        "Takeads",
+        "LinkHaitao",
+        "RewardAny",
+        "TradeTracker",
+        "CollabGlow",
+        "CJ",
+        "Sovrn",
+        "Partnermatic",
+        "Impact",
+        "Skimlinks",
+        "MediaForce",
+        "Webe Partners",
+        "BrandCycle",
+        "LinkApprove",
+        "Eclicklink",
+        "Transact Media",
+        "Cuelinks",
+        "BlueAff",
+        "Daisycon",
+        "Vison Star",
+        "PartnerStack",
+        "Partnerize",
+        "LinkConnector",
+        "PerformCB",
+        "Lomadee",
+        "Mobidea",
+        "Affiliati",
+        "PickaLink",
+        "ConvertSocial",
+        "Encore (encoreaff)",
+        "Rakuten",
+        "Adnamics",
+        "Addrevenue",
+        "CircleWise",
+        "Cloud Traffic",
+        "DGMAX Interactive"
+      ],
+      "Spirion": [
+        "Awin",
+        {
+          "name": "LinkBux",
+          "accounts": [
+            "Crystal"
+          ]
+        },
+        {
+          "name": "Rewardoo",
+          "accounts": [
+            "Crystal"
+          ]
+        },
+        "Yieldkit",
+        "BrandReward",
+        "FlexOffers",
+        {
+          "name": "TradeTracker",
+          "accounts": [
+            "new"
+          ]
+        },
+        "Noctemque",
+        "Shoplooks",
+        "LinkHaitao",
+        "Admitad (+TakeAds)",
+        "Webgains",
+        "AdsPower",
+        "BonusArrive",
+        "TradeDoubler",
+        "CityAds",
+        {
+          "name": "Partnermatic",
+          "accounts": [
+            "Crystal"
+          ]
+        },
+        "Webe Partners",
+        "Propelbon",
+        "Adtraction",
+        "Kwanko",
+        "Daisycon",
+        "CircleWise",
+        "A8.net",
+        "Eclicklink",
+        "Transact Media",
+        "Cuelinks",
+        "ClickDealer",
+        "vCommission",
+        "BlueAff",
+        "AdsDoubler",
+        "Partnerize",
+        "JoinGekko",
+        "AvantLink",
+        "Soicos",
+        "Tracdelight",
+        {
+          "name": "FinanceAds",
+          "accounts": [
+            "International"
+          ]
+        },
+        "PerformCB",
+        "MaxBounty",
+        "MaxWeb",
+        "Salegains",
+        "PartnerBoost",
+        "AdCell",
+        "Optimise Media",
+        "RevGlue",
+        "Targetcircle",
+        "Effinity (ex-Effiliation)",
+        "Everflow — Hume Health",
+        "GANet",
+        "Commission Factory",
+        "Encore (encoreaff)",
+        "Everflow — Hume Care",
+        "CollabGlow"
+      ],
+      "Galatea": [
+        "Awin",
+        {
+          "name": "TradeDoubler",
+          "accounts": [
+            "transferred"
+          ]
+        },
+        {
+          "name": "LinkBux",
+          "accounts": [
+            "Crystal"
+          ]
+        },
+        "LinkHaitao",
+        "Rewardoo",
+        "Partnermatic",
+        "FlexOffers",
+        "Eclicklink",
+        "Noctemque",
+        "BonusArrive",
+        "Transact Media",
+        "Cuelinks",
+        "Webe Partners",
+        "Adexium",
+        "Ascend",
+        "BlueAff",
+        "TakeAds + TakeDeals",
+        "Yieldkit",
+        "Belboon / Daisycon",
+        "Partnerize",
+        "Webgains",
+        "AliExpress",
+        "SalesDoubler",
+        "BrandReward",
+        "MyLead",
+        "PartnerStack",
+        "Partner-Ads",
+        "GuruMedia",
+        "Everflow — Hume Health",
+        "ConvertSocial",
+        "TradeTracker",
+        "CollabGlow",
+        "YepAds",
+        "AffiliatePort",
+        "Paysale",
+        "DHS Program",
+        "Targetcircle"
+      ]
+    }
+  }
 }
